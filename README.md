@@ -36,10 +36,10 @@ LLM / Retrieval:
 ## Project Structure
 
 ```text
-backend/
-frontend/
 data/
-notebooks/
+docs/
+scripts/
+src/
 ```
 
 ## How to run
@@ -82,7 +82,3 @@ Some ideas for future work:
 - Multi-document conversational memory
 - Streaming responses
 - Evaluation metrics for retrieval accuracy
-
-## Contributors
-
-Built collaboratively as a team project.
