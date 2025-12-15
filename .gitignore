@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+models/
+*.gguf
+data/graph/
+data/processed/chunks.jsonl
+data/raw/science_tech_pages_v2.jsonl
+.backup_large/

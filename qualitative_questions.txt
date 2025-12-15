@@ -1,0 +1,6 @@
+What is a large language model?
+How do the Internet of Things and edge computing complement each other when a deployment needs low-latency intelligence?
+Which training approach produces large language models, and what transformer innovation enables them to scale?
+What is explainable artificial intelligence and why is it important?
+How do autonomous robots differ from robotics as a field?
+What privacy requirement motivates federated learning, and how does edge computing help organizations meet it?

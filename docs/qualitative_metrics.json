@@ -1,0 +1,1042 @@
+{
+  "datasets": {
+    "single_hop": {
+      "baseline": {
+        "averages": {
+          "comprehensiveness": 0.9166666666666666,
+          "diversity": 0.5833333333333334,
+          "directness": 0.9166666666666666,
+          "empowerment": 0.011281027436183923,
+          "answer_length": 358.0
+        },
+        "details": [
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is Artificial intelligence?",
+            "selected_titles": [
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Applications of artificial intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines (e.g., Google Search); recommendation systems (used by YouTube, Amazon, and Netflix); virtual assistants (e.g., Google Assistant, Siri, and Alexa); autonomous vehicles (e.g., Waymo); generative and creative tools (e.g., language models and AI art); and superhuman play and analysis in strategy games (e.g., chess and Go). However, many AI applications are not perceived as AI: \"A lot of cutting edge AI has filtered into general applications, often without being called AI because once something becomes useful enough and common enough it's not labeled AI anymore.\"\nVarious subfields of AI research are centered around particular goals and the use of particular tools. The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, perception, and support for robotics. To reach these goals, AI researchers have adapted and integrated a wide range of techniques, including search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics. AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields. Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI)\u2014AI that can complete virtually any cognitive task at least as well as a human.\nArtificial intelligence was founded as an academic discipline in 1956, and the field went through multiple cycles of optimism throughout its history, followed by periods of disappointment and loss of funding, known as AI winters. Funding and interest vastly increased after 2012 when graphics processing units started being used to accelerate neural networks and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture. In the 2020s, an ongoing period of rapid progress in advanced generative AI became known as the AI boom. Generative AI's ability to create and modify content has led to several unintended consequences and harms, which has raised ethical concerns about AI's long-term effects and potential existential risks",
+            "empowerment": 0.017676767676767676,
+            "answer_length": 396
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "What is 3D optical data storage?",
+            "selected_titles": [
+              "3D optical data storage",
+              "5D optical data storage",
+              "3D optical data storage",
+              "Holographic data storage",
+              "Computer data storage"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "3D optical data storage is any form of optical data storage in which information can be recorded or read with three-dimensional resolution (as opposed to the two-dimensional resolution afforded, for example, by CD).\n\nHistory\nThe origins of the field date back to the 1950s, when Yehuda Hirshberg developed the photochromic spiropyrans and suggested their use in data storage. In the 1970s, Valerii Barachevskii demonstrated that this photochromism could be produced by two-photon excitation, and at the end of the 1980s Peter M. Rentzepis showed that this could lead to three-dimensional data storage.\n\nProcesses for reading data\nSecond-harmonic generation has been demonstrated as a method to read data written into a poled polymer matrix.\nOptical coherence tomography has also been demonstrated as a parallel reading method.\n\nAcademic development\nMasahiro Irie developed the diarylethene family of photochromic materials.\nYoshimasa Kawata, Satoshi Kawata, and Zouheir Sekkat have developed and worked on several optical data manipulation systems, in particular involving poled polymer systems.\nKevin C Belfield is developing photochemical systems for 3D optical data storage by the use of resonance energy transfer between molecules, and also develops high two\u2013photon cross-section materials.\nTom Milster has made many contributions to the theory of 3D optical data storage.\nMin Gu has examined confocal readout and methods for its enhancement.\n\nCommercial development\nCall/Recall was founded in 1987 on the basis of Peter Rentzepis' research. Using two\u2013photon recording (at 25 Mbit/s with 6.5 ps, 7 nJ, 532 nm pulses), one\u2013photon readout (with 635 nm), and a high NA (1.0) immersion lens, they have stored 1 TB as 200 layers in a 1.2 mm thick disk. They aim to improve capacity to >5 TB and data rates to up to 250 Mbit/s within a year, by developing new materials as well as high-powered pulsed blue laser diodes.\nMempile are developing a commercial system with the name TeraDisc. In March 2007, they demonstrated the recording and readback of 100 layers of information on a 0.6 mm thick disc, as well as low crosstalk, high sensitivity, and thermodynamic stability. They intend to release a red-laser 0.6-1.0 TB consumer product in 2010,",
+            "empowerment": 0.013513513513513514,
+            "answer_length": 370
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is A* search algorithm?",
+            "selected_titles": [
+              "A* search algorithm",
+              "A* search algorithm",
+              "A* search algorithm",
+              "Algorithm",
+              "Algorithm"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A* (pronounced \"A-star\") is a graph traversal and pathfinding algorithm that is used in many fields of computer science due to its completeness, optimality, and optimal efficiency. Given a weighted graph, a source node and a goal node, the algorithm finds the shortest path (with respect to the given weights) from source to goal.\nOne major practical drawback is its \n  \n    \n      \n        O\n        (\n        \n          b\n          \n            d\n          \n        \n        )\n      \n    \n    {\\displaystyle O(b^{d})}\n  \n space complexity where d is the depth of the shallowest solution (the length of the shortest path from the source node to any given goal node)  and b is the branching factor (the maximum number of successors for any given state), as it stores all generated nodes in memory. Thus, in practical travel-routing systems, it is generally outperformed by algorithms that can pre-process the graph to attain better performance, as well as by memory-bounded approaches; however, A* is still the best solution in many cases.\nPeter Hart, Nils Nilsson and Bertram Raphael of Stanford Research Institute (now SRI International) first published the algorithm in 1968. It can be seen as an extension of Dijkstra's algorithm. A* achieves better performance by using heuristics to guide its search.\nCompared to Dijkstra's algorithm, the A* algorithm only finds the shortest path from a specified source to a specified goal, and not the shortest-path tree from a specified source to all possible goals. This is a necessary trade-off for using a specific-goal-directed heuristic. For Dijkstra's algorithm, since the entire shortest-path tree is generated, every node is a goal, and there can be no specific-goal-directed heuristic.\n\nHistory\nA* was created as part of the Shakey project, which had the aim of building a mobile robot that could plan its own actions. Nils Nilsson originally proposed using the Graph Traverser algorithm for Shakey's path planning. Graph Traverser is guided by a heuristic function h(n), the estimated distance from node n to the goal node: it entirely ignores g(n), the distance from the start node to n. Bertram Raphael suggested using the sum, g(n) + h(n). Peter Hart invented the concepts we now call admissibility and consistency of heuristic functions. A* was originally designed for finding least-cost paths when the cost of a path is the sum of its  costs",
+            "empowerment": 0.02077922077922078,
+            "answer_length": 385
+          },
+          {
+            "comprehensiveness": 0.0,
+            "diversity": 0.4,
+            "directness": 0.0,
+            "question": "What is A.I. Artificial Intelligence?",
+            "selected_titles": [
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Applications of artificial intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines (e.g., Google Search); recommendation systems (used by YouTube, Amazon, and Netflix); virtual assistants (e.g., Google Assistant, Siri, and Alexa); autonomous vehicles (e.g., Waymo); generative and creative tools (e.g., language models and AI art); and superhuman play and analysis in strategy games (e.g., chess and Go). However, many AI applications are not perceived as AI: \"A lot of cutting edge AI has filtered into general applications, often without being called AI because once something becomes useful enough and common enough it's not labeled AI anymore.\"\nVarious subfields of AI research are centered around particular goals and the use of particular tools. The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, perception, and support for robotics. To reach these goals, AI researchers have adapted and integrated a wide range of techniques, including search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics. AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields. Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI)\u2014AI that can complete virtually any cognitive task at least as well as a human.\nArtificial intelligence was founded as an academic discipline in 1956, and the field went through multiple cycles of optimism throughout its history, followed by periods of disappointment and loss of funding, known as AI winters. Funding and interest vastly increased after 2012 when graphics processing units started being used to accelerate neural networks and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture. In the 2020s, an ongoing period of rapid progress in advanced generative AI became known as the AI boom. Generative AI's ability to create and modify content has led to several unintended consequences and harms, which has raised ethical concerns about AI's long-term effects and potential existential risks",
+            "empowerment": 0.017676767676767676,
+            "answer_length": 396
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "What is ACM Computing Classification System?",
+            "selected_titles": [
+              "ACM Computing Classification System",
+              "Association for Computing Machinery",
+              "ACM Computing Classification System",
+              "ACM Computing Reviews",
+              "ACM Computing Surveys"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "The ACM Computing Classification System (CCS) is a subject classification system for computing devised by the Association for Computing Machinery (ACM). The system is comparable to the Mathematics Subject Classification (MSC) in scope, aims, and structure, being used by the various ACM journals to organize subjects by area.\n\nHistory\nThe system has gone through seven revisions, the first version being published in 1964, and revised versions appearing in 1982, 1983, 1987, 1991, 1998, and the now current version in 2012.\n\nStructure\nIt is hierarchically structured in four levels. For example, one branch of the hierarchy contains:\n\nComputing methodologies\nArtificial intelligence\nKnowledge representation and reasoning\nOntology engineering\n\nSee also\nComputer Science Ontology\nPhysics and Astronomy Classification Scheme\narXiv, a preprint server allowing submitted papers to be classified using the ACM CCS\nPhysics Subject Headings\n\nReferences\nCoulter, Neal (1997), \"ACM's computing classification system reflects changing times\", Communications of the ACM, 40 (12), New York, NY, USA: ACM: 111\u2013112, doi:10.1145/265563.265579, S2CID 42548816.\nCoulter, Neal (chair); French, James; Glinert, Ephraim; Horton, Thomas; Mead, Nancy; Ralston, Anthony; Rada, Roy; Rodkin, Craig; Rous, Bernard; Tucker, Allen; Wegner, Peter; Weiss, Eric; Wierzbicki, Carol (January 21, 1998), \"Computing Classification System 1998: Current Status and Future Maintenance Report of the CCS Update Committee\" (PDF), Computing Reviews, New York, NY, USA: ACM: 1\u20135.\nMirkin, Boris; Nascimento, Susana; Pereira, Luis Moniz (2008), \"Representing a Computer Science Research Organization on the ACM Computing Classification System\", in Eklund, Peter; Haemmerl\u00e9, Ollivier (eds.), Supplementary Proceedings of the 16th International Conference on Conceptual Structures (ICCS-2008) (PDF), CEUR Workshop Proceedings, vol. 354, RWTH Aachen University, pp. 57\u201365.\n\nExternal links\ndl.acm.org/ccs is the homepage of the system, including links to four complete versions of the system:\nthe 1964 version Archived 2016-12-01 at the Wayback Machine\nthe 1991 version Archived 2017-09-21 at the Wayback Machine\nthe 1998",
+            "empowerment": 0.0031847133757961785,
+            "answer_length": 314
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is AI-assisted software development?",
+            "selected_titles": [
+              "AI-assisted software development",
+              "Applications of artificial intelligence",
+              "Applications of artificial intelligence",
+              "Applications of artificial intelligence",
+              "Applications of artificial intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "AI-assisted software development is the use of artificial intelligence agents to augment the software development life cycle. It uses large language models (LLMs), natural language processing, and other AI technologies to assist software developers in a range of tasks from initial code generation to subsequent debugging, testing and documentation.\n\nTechnologies\nCode generation\nLLMs that have been trained on source code repositories are able to generate functional code from natural language prompts. Such models have knowledge of programming syntax, common design patterns and best practices in a variety of programming languages.\n\nIntelligent code completion\nAI agents using pre-trained and fine-tuned LLMs can predict and suggest code completions based on context, going beyond simple keyword matching to infer the developer's intent and picture the broader structure of the developing codebase. An analysis has shown that such use of LLMs significantly enhances code completion performance across several programming languages and contexts, and the resulting capability of predicting relevant code snippets based on context and partial input boosts developer productivity substantially.\n\nTesting, debugging, code review and analysis\nAI is used to automatically generate test cases, identify potential bugs, and suggest fixes. LLMs trained on historical bug data can enable prediction of likely failure points in generated code. Similarly, AI agents are used to perform static code analysis, identify security vulnerabilities, suggest performance improvements and ensure adherence to coding standards and best practices.\n\nChallenges\nThe incorporation of AI tools has introduced new ethical dilemmas and intellectual property challenges. The ownership of AI-generated code is unclear: who is responsible for the generated end-product? Also unclear are the ethical responsibilities of generated code. Changes in the role of software engineers are inevitable.\n\nGovernance and oversight\nThe outputs from AI-assisted software development require to be validated through a combination of automated testing, static analysis tools and human review, creating a governance layer that acts as a safeguard ensuring quality and accountability.\n\nIndustry perspectives\nTechnology sector leaders have highlighted the transformative potential of AI-assisted software development. In an 'Unlocking AI Potential' session of 'Advancing AI 2025' hosted by AMD Developer Central, Andrew Ng and Lisa Su emphasized the strategic and operational implications of integrating AI tools into development workflows. Ng noted that AI systems are increasingly capable of \"helping programmers focus on higher-level problem solving\", while Su framed the shift as \"an opportunity to redefine performance and productivity across industries.\"\n\nSee also\nIntegrated development environment\nVibe coding\nGitHub Copilot\nGoogle DeepMind AlphaCode\nNo-code",
+            "empowerment": 0.014527845036319613,
+            "answer_length": 413
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is Machine learning?",
+            "selected_titles": [
+              "Machine learning",
+              "Online machine learning",
+              "Online machine learning",
+              "Online machine learning",
+              "Online machine learning"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalise to unseen data, and thus perform tasks without explicit instructions. Within a subdiscipline in machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.\nML finds application in many fields, including natural language processing, computer vision, speech recognition, email filtering, agriculture, and medicine. The application of ML to business problems is known as predictive analytics.\nStatistics and mathematical optimisation (mathematical programming) methods comprise the foundations of machine learning. Data mining is a related field of study, focusing on exploratory data analysis (EDA) via unsupervised learning.\nFrom a theoretical viewpoint, probably approximately correct learning provides a mathematical and statistical framework for describing machine learning. Most traditional machine learning and deep learning algorithms can be described as empirical risk minimisation under this framework.\n\nHistory\nThe term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this time period.\nThe earliest machine learning program was introduced in the 1950s when Arthur Samuel invented a computer program that calculated the winning chance in checkers for each side, but the history of machine learning roots back to decades of human desire and effort to study human cognitive processes. In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells. Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data. Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.\nBy the early 1960s, an experimental \"learning machine\" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyse sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively \"trained\" by a human operator/teacher to recognise patterns and equipped with a \"goof\" button to cause it to reevaluate incorrect decisions. A representative book on research",
+            "empowerment": 0.009685230024213076,
+            "answer_length": 413
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is AAAI Conference on Artificial Intelligence?",
+            "selected_titles": [
+              "AAAI Conference on Artificial Intelligence",
+              "Association for the Advancement of Artificial Intelligence",
+              "Association for the Advancement of Artificial Intelligence",
+              "Association for the Advancement of Artificial Intelligence",
+              "AAAI Conference on Artificial Intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "The AAAI Conference on Artificial Intelligence (AAAI) is a leading international academic conference in artificial intelligence held annually. It ranks 4th in terms of H5 Index in Google Scholar's list of top AI publications, after ICLR, NeurIPS, and ICML. It is supported by the Association for the Advancement of Artificial Intelligence. Precise dates vary from year to year, but paper submissions are generally due at the end of August to beginning of September, and the conference is generally held during the following February. The first AAAI was held in 1980 at Stanford University, Stanford California.\nDuring AAAI-20 conference, AI pioneers and 2018 Turing Award winners (often referred to as the Nobel Prize of Computing) Yann LeCun and Yoshua Bengio, among eight other researchers, were honored as the AAAI 2020 Fellows.\nAlong with other conferences such as NeurIPS and ICML, AAAI uses an artificial-intelligence algorithm to assign papers to reviewers.\n\nSponsors\nMany leading technology companies, including Google, Microsoft, Amazon (company), IBM, Baidu, Bytedance, and Huawei, generously sponsor and participate in AAAI to publish and showcase their latest theoretical and applied research. Sponsoring companies also actively recruit AI talents at the conference.\n\nLocations\nAAAI-2026 Singapore Expo, Singapore\n AAAI-2025 Pennsylvania Convention Center, Philadelphia, Pennsylvania, United States\n AAAI-2024 Vancouver Convention Centre, Vancouver, British Columbia, Canada\n AAAI-2023 Washington Convention Center, Washington, D.C., United States\n AAAI-2022 Virtual Conference\n AAAI-2021 Virtual Conference\n AAAI-2020 Hilton New York Midtown, New York, New York, United States\n AAAI-2019 Hilton Hawaiian Village, Honolulu, Hawaii, United States\n AAAI-2018 Hilton New Orleans Riverside, New Orleans, Louisiana, United States\n AAAI-2017 San Francisco, California, United States\n AAAI-2016 Phoenix, Arizona, United States\n AAAI-2015 Austin, Texas, United States\n AAAI-2014 Qu\u00e9bec Convention Center, Qu\u00e9bec City, Qu\u00e9bec, Canada\n AAAI-2013 Bellevue, Washington, United States\n AAAI-2012 Toronto, Ontario, Canada\n AAAI-2011 San Francisco, California, United States\n AAAI-2010 Westin Peachtree Plaza, Atlanta, Georgia, United States\n AAAI-2008 Chicago, Illinois, United States\n AAAI-2007 Toronto, Ontario, Canada\n AAAI-2006 Boston, Massachusetts, United States\n AAAI-2005 Pittsburgh, Pennsylvania, United States\n AAAI-2004 San Jose, California, United",
+            "empowerment": 0.0,
+            "answer_length": 350
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 1.0,
+            "directness": 1.0,
+            "question": "What is ACM Computing Surveys?",
+            "selected_titles": [
+              "ACM Computing Surveys",
+              "ACM Computing Reviews",
+              "Association for Computing Machinery",
+              "ACM Computing Classification System",
+              "ACM Transactions on Computer Systems"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "ACM Computing Surveys is peer-reviewed quarterly scientific journal and is published by the Association for Computing Machinery. It publishes survey articles and tutorials related to computer science and computing. The journal was established in 1969 with William S. Dorn as founding editor-in-chief.\nAccording to the Journal Citation Reports, the journal has a 2023 impact factor of 23.8. In a 2008 ranking of computer science journals, ACM Computing Surveys received the highest rank \"A*\".\n\nSee also\nACM Computing Reviews\n\nReferences\nExternal links\nOfficial website",
+            "empowerment": 0.0,
+            "answer_length": 87
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "What is Active learning (machine learning)?",
+            "selected_titles": [
+              "Active learning (machine learning)",
+              "Machine learning",
+              "Online machine learning",
+              "Online machine learning",
+              "Online machine learning"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Active learning is a special case of machine learning in which a learning algorithm can interactively query a human user (or some other information source), to label new data points with the desired outputs. The human user must possess knowledge/expertise in the problem domain, including the ability to consult/research authoritative sources when necessary.  In statistics literature, it is sometimes also called optimal experimental design. The information source is also called teacher or oracle.\nThere are situations in which unlabeled data is abundant but manual labeling is expensive. In such a scenario, learning algorithms can actively query the user/teacher for labels. This type of iterative supervised learning is called active learning. Since the learner chooses the examples, the number of examples to learn a concept can often be much lower than the number required in normal supervised learning. With this approach, there is a risk that the algorithm is overwhelmed by uninformative examples.  Recent developments are dedicated to multi-label active learning, hybrid active learning and active learning in a single-pass (on-line) context, combining concepts from the field of machine learning (e.g. conflict and ignorance) with adaptive, incremental learning policies in the field of online machine learning. Using active learning allows for faster development of a machine learning algorithm, when comparative updates would require a quantum or super computer.\nLarge-scale active learning projects may benefit from crowdsourcing frameworks such as Amazon Mechanical Turk that include many humans in the active learning loop.\n\nDefinitions\nLet T be the total set of all data under consideration. For example, in a protein engineering problem, T would include all proteins that are known to have a certain interesting activity and all additional proteins that one might want to test for that activity.\nDuring each iteration, i, T is broken up into three subsets\n\n  \n    \n      \n        \n          \n            T\n          \n          \n            K\n            ,\n            i\n          \n        \n      \n    \n    {\\displaystyle \\mathbf {T} _{K,i}}\n  \n Data points where the label is known.\n\n  \n    \n      \n        \n          \n            T\n          \n          \n            U\n            ,\n            i\n          \n        \n      \n    \n    {\\displaystyle \\mathbf {T} _{U,i}}\n  \n Data points where the label is unknown.\n\n  \n    \n      \n        \n          \n            T\n          \n          \n            C\n            ,\n            i\n          \n        \n      \n    \n    {\\displaystyle \\mathbf {T} _{C,i}}\n  \n A subset of TU,i that is chosen to be labeled.\nMost of the current research in active learning involves the best method to choose the data points for TC,i.\n\nScenarios\nPool-based sampling: In this approach, which is the most well known scenario, the learning algorithm attempts to evaluate the entire dataset before selecting data points (instances)",
+            "empowerment": 0.012345679012345678,
+            "answer_length": 405
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "What is Large language model?",
+            "selected_titles": [
+              "Large language model",
+              "Large language model",
+              "Language model",
+              "1.58-bit large language model",
+              "BLOOM (language model)"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A large language model (LLM) is a language model trained with self-supervised machine learning on a vast amount of text, designed for natural language processing tasks, especially language generation. The largest and most capable LLMs are generative pre-trained transformers (GPTs) and provide the core capabilities of chatbots such as ChatGPT, Gemini and Claude. LLMs can be fine-tuned for specific tasks or guided by prompt engineering. These models acquire predictive power regarding syntax, semantics, and ontologies inherent in human language corpora, but they also inherit inaccuracies and biases present in the data they are trained on.\nThey consist of billions to trillions of parameters and operate as general-purpose sequence models, generating, summarizing, translating, and reasoning over text. LLMs represent a significant new technology in their ability to generalize across tasks with minimal task-specific supervision, enabling capabilities like conversational agents, code generation, knowledge retrieval, and automated reasoning that previously required bespoke systems.\nLLMs evolved from earlier statistical and recurrent neural network approaches to language modeling. The transformer architecture, introduced in 2017, replaced recurrence with self-attention, allowing efficient parallelization, longer context handling, and scalable training on unprecedented data volumes. This innovation enabled models like GPT, BERT, and their successors, which demonstrated emergent behaviors at scale such as few-shot learning and compositional reasoning.\nReinforcement learning, particularly policy gradient algorithms, has been adapted to fine-tune LLMs for desired behaviors beyond raw next-token prediction. Reinforcement learning from human feedback (RLHF) applies these methods to optimize a policy, the LLM's output distribution, against reward signals derived from human or automated preference judgments. This has been critical for aligning model outputs with user expectations, improving factuality, reducing harmful responses, and enhancing task performance.\nBenchmark evaluations for LLMs have evolved from narrow linguistic assessments toward comprehensive, multi-task evaluations measuring reasoning, factual accuracy, alignment, and safety. Hill climbing, iteratively optimizing models against benchmarks, has emerged as a dominant strategy, producing rapid incremental performance gains but raising concerns of overfitting to benchmarks rather than achieving genuine generalization or robust capability improvements.\n\nHistory\nBefore the emergence of transformer-based models in 2017, some language models were considered large relative to the computational and data constraints of their time. In the early 1990s, IBM's statistical models pioneered word alignment techniques for machine translation",
+            "empowerment": 0.007894736842105263,
+            "answer_length": 380
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "What is 1.58-bit large language model?",
+            "selected_titles": [
+              "1.58-bit large language model",
+              "Large language model",
+              "Large language model",
+              "BLOOM (language model)",
+              "1.58-bit large language model"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A 1.58-bit large language model (also known as a ternary LLM) is a type of large language model (LLM) designed to be computationally efficient. It achieves this by using weights that are restricted to only three values: -1, 0, and +1. This restriction significantly reduces the model's memory footprint and allows for faster processing, as computationally expensive multiplication operations can be replaced with lower-cost additions. This contrasts with traditional models that use 16-bit floating-point numbers (FP16 or BF16) for their weights.\nStudies have shown that for models up to several billion parameters, the performance of 1.58-bit LLMs on various tasks is comparable to their full-precision counterparts. This approach could enable powerful AI to run on less specialized and lower-power hardware.\nThe name \"1.58-bit\" comes from the fact that a system with three states contains \n  \n    \n      \n        \n          log\n          \n            2\n          \n        \n        \u2061\n        3\n        \u2248\n        1.58\n      \n    \n    {\\displaystyle \\log _{2}3\\approx 1.58}\n  \n bits of information. These models are sometimes also referred to as 1-bit LLMs in research papers, although this term can also refer to true binary models (with weights of -1 and +1).\n\nBitNet\nIn 2024, Ma et al., researchers at Microsoft, declared that their 1.58-bit model, BitNet b1.58 is comparable in performance to the 16-bit Llama 2 and opens the era of 1-bit LLM. BitNet creators did not use the post-training quantization of weights  but instead relied on the new BitLinear transform that replaced the nn.Linear layer of the traditional transformer design.\nIn 2025, Microsoft researchers had released an open-weights and open inference code model BitNet b1.58 2B4T demonstrating performance competitive with the full precision models at 2B parameters and 4T training tokens.\n\nPost-training quantization\nBitNet derives its performance from being trained natively in 1.58 bit instead of being quantized from a full-precision model after training. Still, training is an expensive process and it would be desirable to be able to somehow convert an existing model to 1.58 bits. In 2024, HuggingFace reported a way to gradually ramp up the 1.58-bit quantization in fine-tuning an existing model down to 1.58 bits.\n\nCritique\nSome researchers point out that the scaling laws of large language models favor the low-bit weights only in",
+            "empowerment": 0.01808785529715762,
+            "answer_length": 387
+          }
+        ]
+      },
+      "graphrag": {
+        "averages": {
+          "comprehensiveness": 1.0,
+          "diversity": 0.6,
+          "directness": 0.9666666666666667,
+          "empowerment": 0.009795114852788932,
+          "answer_length": 358.9166666666667
+        },
+        "details": [
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is Artificial intelligence?",
+            "selected_titles": [
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Computing Machinery and Intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines (e.g., Google Search); recommendation systems (used by YouTube, Amazon, and Netflix); virtual assistants (e.g., Google Assistant, Siri, and Alexa); autonomous vehicles (e.g., Waymo); generative and creative tools (e.g., language models and AI art); and superhuman play and analysis in strategy games (e.g., chess and Go). However, many AI applications are not perceived as AI: \"A lot of cutting edge AI has filtered into general applications, often without being called AI because once something becomes useful enough and common enough it's not labeled AI anymore.\"\nVarious subfields of AI research are centered around particular goals and the use of particular tools. The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, perception, and support for robotics. To reach these goals, AI researchers have adapted and integrated a wide range of techniques, including search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics. AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields. Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI)\u2014AI that can complete virtually any cognitive task at least as well as a human.\nArtificial intelligence was founded as an academic discipline in 1956, and the field went through multiple cycles of optimism throughout its history, followed by periods of disappointment and loss of funding, known as AI winters. Funding and interest vastly increased after 2012 when graphics processing units started being used to accelerate neural networks and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture. In the 2020s, an ongoing period of rapid progress in advanced generative AI became known as the AI boom. Generative AI's ability to create and modify content has led to several unintended consequences and harms, which has raised ethical concerns about AI's long-term effects and potential existential risks",
+            "empowerment": 0.017676767676767676,
+            "answer_length": 396
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is 3D optical data storage?",
+            "selected_titles": [
+              "3D optical data storage",
+              "3D optical data storage",
+              "3D computer graphics",
+              "3D computer graphics",
+              "3D computer graphics"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "3D optical data storage is any form of optical data storage in which information can be recorded or read with three-dimensional resolution (as opposed to the two-dimensional resolution afforded, for example, by CD).\n\nHistory\nThe origins of the field date back to the 1950s, when Yehuda Hirshberg developed the photochromic spiropyrans and suggested their use in data storage. In the 1970s, Valerii Barachevskii demonstrated that this photochromism could be produced by two-photon excitation, and at the end of the 1980s Peter M. Rentzepis showed that this could lead to three-dimensional data storage.\n\nProcesses for reading data\nSecond-harmonic generation has been demonstrated as a method to read data written into a poled polymer matrix.\nOptical coherence tomography has also been demonstrated as a parallel reading method.\n\nAcademic development\nMasahiro Irie developed the diarylethene family of photochromic materials.\nYoshimasa Kawata, Satoshi Kawata, and Zouheir Sekkat have developed and worked on several optical data manipulation systems, in particular involving poled polymer systems.\nKevin C Belfield is developing photochemical systems for 3D optical data storage by the use of resonance energy transfer between molecules, and also develops high two\u2013photon cross-section materials.\nTom Milster has made many contributions to the theory of 3D optical data storage.\nMin Gu has examined confocal readout and methods for its enhancement.\n\nCommercial development\nCall/Recall was founded in 1987 on the basis of Peter Rentzepis' research. Using two\u2013photon recording (at 25 Mbit/s with 6.5 ps, 7 nJ, 532 nm pulses), one\u2013photon readout (with 635 nm), and a high NA (1.0) immersion lens, they have stored 1 TB as 200 layers in a 1.2 mm thick disk. They aim to improve capacity to >5 TB and data rates to up to 250 Mbit/s within a year, by developing new materials as well as high-powered pulsed blue laser diodes.\nMempile are developing a commercial system with the name TeraDisc. In March 2007, they demonstrated the recording and readback of 100 layers of information on a 0.6 mm thick disc, as well as low crosstalk, high sensitivity, and thermodynamic stability. They intend to release a red-laser 0.6-1.0 TB consumer product in 2010,",
+            "empowerment": 0.013513513513513514,
+            "answer_length": 370
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is A* search algorithm?",
+            "selected_titles": [
+              "A* search algorithm",
+              "Algorithm",
+              "Algorithm",
+              "Algorithm",
+              "Algorithm"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A* (pronounced \"A-star\") is a graph traversal and pathfinding algorithm that is used in many fields of computer science due to its completeness, optimality, and optimal efficiency. Given a weighted graph, a source node and a goal node, the algorithm finds the shortest path (with respect to the given weights) from source to goal.\nOne major practical drawback is its \n  \n    \n      \n        O\n        (\n        \n          b\n          \n            d\n          \n        \n        )\n      \n    \n    {\\displaystyle O(b^{d})}\n  \n space complexity where d is the depth of the shallowest solution (the length of the shortest path from the source node to any given goal node)  and b is the branching factor (the maximum number of successors for any given state), as it stores all generated nodes in memory. Thus, in practical travel-routing systems, it is generally outperformed by algorithms that can pre-process the graph to attain better performance, as well as by memory-bounded approaches; however, A* is still the best solution in many cases.\nPeter Hart, Nils Nilsson and Bertram Raphael of Stanford Research Institute (now SRI International) first published the algorithm in 1968. It can be seen as an extension of Dijkstra's algorithm. A* achieves better performance by using heuristics to guide its search.\nCompared to Dijkstra's algorithm, the A* algorithm only finds the shortest path from a specified source to a specified goal, and not the shortest-path tree from a specified source to all possible goals. This is a necessary trade-off for using a specific-goal-directed heuristic. For Dijkstra's algorithm, since the entire shortest-path tree is generated, every node is a goal, and there can be no specific-goal-directed heuristic.\n\nHistory\nA* was created as part of the Shakey project, which had the aim of building a mobile robot that could plan its own actions. Nils Nilsson originally proposed using the Graph Traverser algorithm for Shakey's path planning. Graph Traverser is guided by a heuristic function h(n), the estimated distance from node n to the goal node: it entirely ignores g(n), the distance from the start node to n. Bertram Raphael suggested using the sum, g(n) + h(n). Peter Hart invented the concepts we now call admissibility and consistency of heuristic functions. A* was originally designed for finding least-cost paths when the cost of a path is the sum of its  costs",
+            "empowerment": 0.02077922077922078,
+            "answer_length": 385
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "What is A.I. Artificial Intelligence?",
+            "selected_titles": [
+              "A.I. Artificial Intelligence",
+              "Artificial intelligence systems integration",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A.I. Artificial Intelligence (or simply A.I.) is a 2001 American science fiction drama film directed by Steven Spielberg. The screenplay by Spielberg and screen story by Ian Watson are loosely based on the 1969 short story \"Supertoys Last All Summer Long\" by Brian Aldiss. Set in a futuristic society, the film stars Haley Joel Osment as David, a childlike android uniquely programmed with the ability to love. Jude Law, Frances O'Connor, Brendan Gleeson and William Hurt star in supporting roles.\nDevelopment of A.I. originally began after producer and director Stanley Kubrick acquired the rights to Aldiss's story in the early 1970s. Kubrick hired a series of writers, including Aldiss, Bob Shaw, Ian Watson and Sara Maitland, until the mid-1990s. The film languished in development hell for years, partly because Kubrick felt that computer-generated imagery was not advanced enough to create the David character, which he believed no child actor would convincingly portray. In 1995, Kubrick handed A.I. to Spielberg, but the film did not gain momentum until Kubrick died in 1999. Spielberg remained close to Watson's treatment for the screenplay and dedicated the film to Kubrick.\nA.I. Artificial Intelligence was released on June 29, 2001, by Warner Bros. Pictures in North America. It received generally positive reviews from critics and grossed $235.9 million against a budget of $90\u2013100 million. It was also nominated for Best Visual Effects and Best Original Score (for John Williams) at the 74th Academy Awards. In a 2016 BBC poll of 177 critics around the world, A.I. Artificial Intelligence was voted the eighty-third greatest film since 2000. It has since been called one of Spielberg's best works and one of the greatest films of the 21st century, and of all time.\n\nPlot\nIn the 22nd century, rising sea levels from global warming have wiped out coastal cities and altered the world's climate. With the human population in decline, advanced nations have created humanoid robots called mechas to fulfill various roles in society.\nIn Madison, New Jersey, David, an 11-year-old prototype mecha child capable of experiencing love, is given to Henry Swinton and his wife Monica, whose son Martin is in suspended animation after contracting a rare disease. Initially uncomfortable with David, Monica eventually warms to him and activates his imprinting protocol. Wanting her to love him in return, he befriends Teddy, Martin",
+            "empowerment": 0.002506265664160401,
+            "answer_length": 399
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "What is ACM Computing Classification System?",
+            "selected_titles": [
+              "ACM Computing Classification System",
+              "Association for Computing Machinery",
+              "Data mining",
+              "ACM Computing Reviews",
+              "Data mining"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "The ACM Computing Classification System (CCS) is a subject classification system for computing devised by the Association for Computing Machinery (ACM). The system is comparable to the Mathematics Subject Classification (MSC) in scope, aims, and structure, being used by the various ACM journals to organize subjects by area.\n\nHistory\nThe system has gone through seven revisions, the first version being published in 1964, and revised versions appearing in 1982, 1983, 1987, 1991, 1998, and the now current version in 2012.\n\nStructure\nIt is hierarchically structured in four levels. For example, one branch of the hierarchy contains:\n\nComputing methodologies\nArtificial intelligence\nKnowledge representation and reasoning\nOntology engineering\n\nSee also\nComputer Science Ontology\nPhysics and Astronomy Classification Scheme\narXiv, a preprint server allowing submitted papers to be classified using the ACM CCS\nPhysics Subject Headings\n\nReferences\nCoulter, Neal (1997), \"ACM's computing classification system reflects changing times\", Communications of the ACM, 40 (12), New York, NY, USA: ACM: 111\u2013112, doi:10.1145/265563.265579, S2CID 42548816.\nCoulter, Neal (chair); French, James; Glinert, Ephraim; Horton, Thomas; Mead, Nancy; Ralston, Anthony; Rada, Roy; Rodkin, Craig; Rous, Bernard; Tucker, Allen; Wegner, Peter; Weiss, Eric; Wierzbicki, Carol (January 21, 1998), \"Computing Classification System 1998: Current Status and Future Maintenance Report of the CCS Update Committee\" (PDF), Computing Reviews, New York, NY, USA: ACM: 1\u20135.\nMirkin, Boris; Nascimento, Susana; Pereira, Luis Moniz (2008), \"Representing a Computer Science Research Organization on the ACM Computing Classification System\", in Eklund, Peter; Haemmerl\u00e9, Ollivier (eds.), Supplementary Proceedings of the 16th International Conference on Conceptual Structures (ICCS-2008) (PDF), CEUR Workshop Proceedings, vol. 354, RWTH Aachen University, pp. 57\u201365.\n\nExternal links\ndl.acm.org/ccs is the homepage of the system, including links to four complete versions of the system:\nthe 1964 version Archived 2016-12-01 at the Wayback Machine\nthe 1991 version Archived 2017-09-21 at the Wayback Machine\nthe 1998",
+            "empowerment": 0.0031847133757961785,
+            "answer_length": 314
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "What is AI-assisted software development?",
+            "selected_titles": [
+              "AI-assisted software development",
+              "Artificial intelligence systems integration",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "AI-assisted software development is the use of artificial intelligence agents to augment the software development life cycle. It uses large language models (LLMs), natural language processing, and other AI technologies to assist software developers in a range of tasks from initial code generation to subsequent debugging, testing and documentation.\n\nTechnologies\nCode generation\nLLMs that have been trained on source code repositories are able to generate functional code from natural language prompts. Such models have knowledge of programming syntax, common design patterns and best practices in a variety of programming languages.\n\nIntelligent code completion\nAI agents using pre-trained and fine-tuned LLMs can predict and suggest code completions based on context, going beyond simple keyword matching to infer the developer's intent and picture the broader structure of the developing codebase. An analysis has shown that such use of LLMs significantly enhances code completion performance across several programming languages and contexts, and the resulting capability of predicting relevant code snippets based on context and partial input boosts developer productivity substantially.\n\nTesting, debugging, code review and analysis\nAI is used to automatically generate test cases, identify potential bugs, and suggest fixes. LLMs trained on historical bug data can enable prediction of likely failure points in generated code. Similarly, AI agents are used to perform static code analysis, identify security vulnerabilities, suggest performance improvements and ensure adherence to coding standards and best practices.\n\nChallenges\nThe incorporation of AI tools has introduced new ethical dilemmas and intellectual property challenges. The ownership of AI-generated code is unclear: who is responsible for the generated end-product? Also unclear are the ethical responsibilities of generated code. Changes in the role of software engineers are inevitable.\n\nGovernance and oversight\nThe outputs from AI-assisted software development require to be validated through a combination of automated testing, static analysis tools and human review, creating a governance layer that acts as a safeguard ensuring quality and accountability.\n\nIndustry perspectives\nTechnology sector leaders have highlighted the transformative potential of AI-assisted software development. In an 'Unlocking AI Potential' session of 'Advancing AI 2025' hosted by AMD Developer Central, Andrew Ng and Lisa Su emphasized the strategic and operational implications of integrating AI tools into development workflows. Ng noted that AI systems are increasingly capable of \"helping programmers focus on higher-level problem solving\", while Su framed the shift as \"an opportunity to redefine performance and productivity across industries.\"\n\nSee also\nIntegrated development environment\nVibe coding\nGitHub Copilot\nGoogle DeepMind AlphaCode\nNo-code",
+            "empowerment": 0.014527845036319613,
+            "answer_length": 413
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is Machine learning?",
+            "selected_titles": [
+              "Machine learning",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalise to unseen data, and thus perform tasks without explicit instructions. Within a subdiscipline in machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.\nML finds application in many fields, including natural language processing, computer vision, speech recognition, email filtering, agriculture, and medicine. The application of ML to business problems is known as predictive analytics.\nStatistics and mathematical optimisation (mathematical programming) methods comprise the foundations of machine learning. Data mining is a related field of study, focusing on exploratory data analysis (EDA) via unsupervised learning.\nFrom a theoretical viewpoint, probably approximately correct learning provides a mathematical and statistical framework for describing machine learning. Most traditional machine learning and deep learning algorithms can be described as empirical risk minimisation under this framework.\n\nHistory\nThe term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this time period.\nThe earliest machine learning program was introduced in the 1950s when Arthur Samuel invented a computer program that calculated the winning chance in checkers for each side, but the history of machine learning roots back to decades of human desire and effort to study human cognitive processes. In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells. Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data. Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.\nBy the early 1960s, an experimental \"learning machine\" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyse sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively \"trained\" by a human operator/teacher to recognise patterns and equipped with a \"goof\" button to cause it to reevaluate incorrect decisions. A representative book on research",
+            "empowerment": 0.009685230024213076,
+            "answer_length": 413
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What is AAAI Conference on Artificial Intelligence?",
+            "selected_titles": [
+              "AAAI Conference on Artificial Intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence",
+              "Artificial intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "The AAAI Conference on Artificial Intelligence (AAAI) is a leading international academic conference in artificial intelligence held annually. It ranks 4th in terms of H5 Index in Google Scholar's list of top AI publications, after ICLR, NeurIPS, and ICML. It is supported by the Association for the Advancement of Artificial Intelligence. Precise dates vary from year to year, but paper submissions are generally due at the end of August to beginning of September, and the conference is generally held during the following February. The first AAAI was held in 1980 at Stanford University, Stanford California.\nDuring AAAI-20 conference, AI pioneers and 2018 Turing Award winners (often referred to as the Nobel Prize of Computing) Yann LeCun and Yoshua Bengio, among eight other researchers, were honored as the AAAI 2020 Fellows.\nAlong with other conferences such as NeurIPS and ICML, AAAI uses an artificial-intelligence algorithm to assign papers to reviewers.\n\nSponsors\nMany leading technology companies, including Google, Microsoft, Amazon (company), IBM, Baidu, Bytedance, and Huawei, generously sponsor and participate in AAAI to publish and showcase their latest theoretical and applied research. Sponsoring companies also actively recruit AI talents at the conference.\n\nLocations\nAAAI-2026 Singapore Expo, Singapore\n AAAI-2025 Pennsylvania Convention Center, Philadelphia, Pennsylvania, United States\n AAAI-2024 Vancouver Convention Centre, Vancouver, British Columbia, Canada\n AAAI-2023 Washington Convention Center, Washington, D.C., United States\n AAAI-2022 Virtual Conference\n AAAI-2021 Virtual Conference\n AAAI-2020 Hilton New York Midtown, New York, New York, United States\n AAAI-2019 Hilton Hawaiian Village, Honolulu, Hawaii, United States\n AAAI-2018 Hilton New Orleans Riverside, New Orleans, Louisiana, United States\n AAAI-2017 San Francisco, California, United States\n AAAI-2016 Phoenix, Arizona, United States\n AAAI-2015 Austin, Texas, United States\n AAAI-2014 Qu\u00e9bec Convention Center, Qu\u00e9bec City, Qu\u00e9bec, Canada\n AAAI-2013 Bellevue, Washington, United States\n AAAI-2012 Toronto, Ontario, Canada\n AAAI-2011 San Francisco, California, United States\n AAAI-2010 Westin Peachtree Plaza, Atlanta, Georgia, United States\n AAAI-2008 Chicago, Illinois, United States\n AAAI-2007 Toronto, Ontario, Canada\n AAAI-2006 Boston, Massachusetts, United States\n AAAI-2005 Pittsburgh, Pennsylvania, United States\n AAAI-2004 San Jose, California, United",
+            "empowerment": 0.0,
+            "answer_length": 350
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "What is ACM Computing Surveys?",
+            "selected_titles": [
+              "ACM Computing Surveys",
+              "ACM Computing Reviews",
+              "Association for Computing Machinery",
+              "Adobe Experience Cloud",
+              "Adobe Experience Cloud"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "ACM Computing Surveys is peer-reviewed quarterly scientific journal and is published by the Association for Computing Machinery. It publishes survey articles and tutorials related to computer science and computing. The journal was established in 1969 with William S. Dorn as founding editor-in-chief.\nAccording to the Journal Citation Reports, the journal has a 2023 impact factor of 23.8. In a 2008 ranking of computer science journals, ACM Computing Surveys received the highest rank \"A*\".\n\nSee also\nACM Computing Reviews\n\nReferences\nExternal links\nOfficial website",
+            "empowerment": 0.0,
+            "answer_length": 87
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 0.6,
+            "question": "What is Active learning (machine learning)?",
+            "selected_titles": [
+              "Machine learning",
+              "Active learning",
+              "Active learning (machine learning)",
+              "Artificial intelligence",
+              "Artificial intelligence"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalise to unseen data, and thus perform tasks without explicit instructions. Within a subdiscipline in machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.\nML finds application in many fields, including natural language processing, computer vision, speech recognition, email filtering, agriculture, and medicine. The application of ML to business problems is known as predictive analytics.\nStatistics and mathematical optimisation (mathematical programming) methods comprise the foundations of machine learning. Data mining is a related field of study, focusing on exploratory data analysis (EDA) via unsupervised learning.\nFrom a theoretical viewpoint, probably approximately correct learning provides a mathematical and statistical framework for describing machine learning. Most traditional machine learning and deep learning algorithms can be described as empirical risk minimisation under this framework.\n\nHistory\nThe term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this time period.\nThe earliest machine learning program was introduced in the 1950s when Arthur Samuel invented a computer program that calculated the winning chance in checkers for each side, but the history of machine learning roots back to decades of human desire and effort to study human cognitive processes. In 1949, Canadian psychologist Donald Hebb published the book The Organization of Behavior, in which he introduced a theoretical neural structure formed by certain interactions among nerve cells. Hebb's model of neurons interacting with one another set a groundwork for how AIs and machine learning algorithms work under nodes, or artificial neurons used by computers to communicate data. Other researchers who have studied human cognitive systems contributed to the modern machine learning technologies as well, including logician Walter Pitts and Warren McCulloch, who proposed the early mathematical models of neural networks to come up with algorithms that mirror human thought processes.\nBy the early 1960s, an experimental \"learning machine\" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyse sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively \"trained\" by a human operator/teacher to recognise patterns and equipped with a \"goof\" button to cause it to reevaluate incorrect decisions. A representative book on research",
+            "empowerment": 0.009685230024213076,
+            "answer_length": 413
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "What is Large language model?",
+            "selected_titles": [
+              "Large language model",
+              "Large language model",
+              "Language model",
+              "BLOOM (language model)",
+              "Database model"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A large language model (LLM) is a language model trained with self-supervised machine learning on a vast amount of text, designed for natural language processing tasks, especially language generation. The largest and most capable LLMs are generative pre-trained transformers (GPTs) and provide the core capabilities of chatbots such as ChatGPT, Gemini and Claude. LLMs can be fine-tuned for specific tasks or guided by prompt engineering. These models acquire predictive power regarding syntax, semantics, and ontologies inherent in human language corpora, but they also inherit inaccuracies and biases present in the data they are trained on.\nThey consist of billions to trillions of parameters and operate as general-purpose sequence models, generating, summarizing, translating, and reasoning over text. LLMs represent a significant new technology in their ability to generalize across tasks with minimal task-specific supervision, enabling capabilities like conversational agents, code generation, knowledge retrieval, and automated reasoning that previously required bespoke systems.\nLLMs evolved from earlier statistical and recurrent neural network approaches to language modeling. The transformer architecture, introduced in 2017, replaced recurrence with self-attention, allowing efficient parallelization, longer context handling, and scalable training on unprecedented data volumes. This innovation enabled models like GPT, BERT, and their successors, which demonstrated emergent behaviors at scale such as few-shot learning and compositional reasoning.\nReinforcement learning, particularly policy gradient algorithms, has been adapted to fine-tune LLMs for desired behaviors beyond raw next-token prediction. Reinforcement learning from human feedback (RLHF) applies these methods to optimize a policy, the LLM's output distribution, against reward signals derived from human or automated preference judgments. This has been critical for aligning model outputs with user expectations, improving factuality, reducing harmful responses, and enhancing task performance.\nBenchmark evaluations for LLMs have evolved from narrow linguistic assessments toward comprehensive, multi-task evaluations measuring reasoning, factual accuracy, alignment, and safety. Hill climbing, iteratively optimizing models against benchmarks, has emerged as a dominant strategy, producing rapid incremental performance gains but raising concerns of overfitting to benchmarks rather than achieving genuine generalization or robust capability improvements.\n\nHistory\nBefore the emergence of transformer-based models in 2017, some language models were considered large relative to the computational and data constraints of their time. In the early 1990s, IBM's statistical models pioneered word alignment techniques for machine translation",
+            "empowerment": 0.007894736842105263,
+            "answer_length": 380
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "What is 1.58-bit large language model?",
+            "selected_titles": [
+              "1.58-bit large language model",
+              "Large language model",
+              "Large language model",
+              "Language model",
+              "BLOOM (language model)"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A 1.58-bit large language model (also known as a ternary LLM) is a type of large language model (LLM) designed to be computationally efficient. It achieves this by using weights that are restricted to only three values: -1, 0, and +1. This restriction significantly reduces the model's memory footprint and allows for faster processing, as computationally expensive multiplication operations can be replaced with lower-cost additions. This contrasts with traditional models that use 16-bit floating-point numbers (FP16 or BF16) for their weights.\nStudies have shown that for models up to several billion parameters, the performance of 1.58-bit LLMs on various tasks is comparable to their full-precision counterparts. This approach could enable powerful AI to run on less specialized and lower-power hardware.\nThe name \"1.58-bit\" comes from the fact that a system with three states contains \n  \n    \n      \n        \n          log\n          \n            2\n          \n        \n        \u2061\n        3\n        \u2248\n        1.58\n      \n    \n    {\\displaystyle \\log _{2}3\\approx 1.58}\n  \n bits of information. These models are sometimes also referred to as 1-bit LLMs in research papers, although this term can also refer to true binary models (with weights of -1 and +1).\n\nBitNet\nIn 2024, Ma et al., researchers at Microsoft, declared that their 1.58-bit model, BitNet b1.58 is comparable in performance to the 16-bit Llama 2 and opens the era of 1-bit LLM. BitNet creators did not use the post-training quantization of weights  but instead relied on the new BitLinear transform that replaced the nn.Linear layer of the traditional transformer design.\nIn 2025, Microsoft researchers had released an open-weights and open inference code model BitNet b1.58 2B4T demonstrating performance competitive with the full precision models at 2B parameters and 4T training tokens.\n\nPost-training quantization\nBitNet derives its performance from being trained natively in 1.58 bit instead of being quantized from a full-precision model after training. Still, training is an expensive process and it would be desirable to be able to somehow convert an existing model to 1.58 bits. In 2024, HuggingFace reported a way to gradually ramp up the 1.58-bit quantization in fine-tuning an existing model down to 1.58 bits.\n\nCritique\nSome researchers point out that the scaling laws of large language models favor the low-bit weights only in",
+            "empowerment": 0.01808785529715762,
+            "answer_length": 387
+          }
+        ]
+      },
+      "improvements": {
+        "comprehensiveness": [
+          "What is A.I. Artificial Intelligence?"
+        ],
+        "diversity": [
+          "What is A.I. Artificial Intelligence?",
+          "What is AI-assisted software development?",
+          "What is Active learning (machine learning)?",
+          "What is 1.58-bit large language model?"
+        ],
+        "directness": [
+          "What is A.I. Artificial Intelligence?"
+        ],
+        "empowerment": []
+      }
+    },
+    "multi_hop": {
+      "baseline": {
+        "averages": {
+          "comprehensiveness": 0.8229166666666666,
+          "diversity": 0.425,
+          "directness": 1.0,
+          "empowerment": 0.014533316469295678,
+          "answer_length": 404.1875
+        },
+        "details": [
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "How do the Internet of Things and edge computing complement each other when a deployment needs low-latency intelligence?",
+            "selected_titles": [
+              "Internet of things",
+              "Edge computing",
+              "Edge computing",
+              "Edge computing",
+              "Edge computing"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "T intelligence can be offered at three levels: IoT devices, Edge/Fog nodes, and cloud computing. The need for intelligent control and decision at each level depends on the time sensitiveness of the IoT application. For example, an autonomous vehicle's camera needs to make real-time obstacle detection to avoid an accident. This fast decision making would not be possible through transferring data from the vehicle to cloud instances and return the predictions back to the vehicle. Instead, all the operation should be performed locally in the vehicle. Integrating advanced machine learning algorithms including deep learning into IoT devices is an active research area to make smart objects closer to reality. Moreover, it is possible to get the most value out of IoT deployments through analyzing IoT data, extracting hidden information, and predicting control decisions. A wide variety of machine learning techniques have been used in IoT domain ranging from traditional methods such as regression, support vector machine, and random forest to advanced ones such as convolutional neural networks, LSTM, and variational autoencoder.\nIn the future, the Internet of things may be a non-deterministic and open network in which auto-organized or intelligent entities (web services, SOA components) and virtual objects (avatars) will be interoperable and able to act independently (pursuing their own objectives or shared ones) depending on the context, circumstances or environments. Autonomous behavior through the collection and reasoning of context information as well as the object's ability to detect changes in the environment (faults affecting sensors) and introduce suitable mitigation measures constitutes a major research trend, clearly needed to provide credibility to the IoT technology. Modern IoT products and solutions in the marketplace use a variety of different technologies to support such context-aware automation, but more sophisticated forms of intelligence are requested to permit sensor units and intelligent cyber-physical systems to be deployed in real environments.\n\nArchitecture\nIoT system architecture, in its simplistic view, consists of three tiers: Tier 1: Devices, Tier 2: the Edge Gateway, and Tier 3: the Cloud. Devices include networked things, such as the sensors and actuators found in IoT equipment, particularly those that use protocols such as Modbus, Bluetooth, Zigbee, or proprietary protocols, to connect to an Edge Gateway. The Edge Gateway layer consists of sensor data aggregation systems called Edge Gateways that provide functionality, such as pre-processing of the data, securing connectivity to cloud, using systems such as WebSocke",
+            "empowerment": 0.01990049751243781,
+            "answer_length": 402
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What privacy requirement motivates federated learning, and how does edge computing help organizations meet it?",
+            "selected_titles": [
+              "Edge computing",
+              "Federated learning",
+              "Federated learning",
+              "Edge computing",
+              "Federated learning"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "On the other hand, by keeping and processing data at the edge, it is possible to increase privacy by minimizing the transmission of sensitive information to the cloud. Furthermore, the ownership of collected data shifts from service providers to end-users.\n\nScalability\nScalability in a distributed network must face different issues. First, it must take into account the heterogeneity of the devices, having different performance and energy constraints, the highly dynamic condition, and the reliability of the connections compared to more robust infrastructure of cloud data centers. Moreover, security requirements may introduce further latency in the communication between nodes, which may slow down the scaling process.\nThe state-of-the-art scheduling technique can increase the effective utilization of edge resources and scales the edge server by assigning minimum edge resources to each offloaded task.\n\nReliability\nManagement of failovers is crucial in order to keep a service alive. If a single node goes down and is unreachable, users should still be able to access a service without interruptions. Moreover, edge computing systems must provide actions to recover from a failure and alert the user about the incident. To this aim, each device must maintain the network topology of the entire distributed system, so that detection of errors and recovery become easily applicable. Other factors that may influence this aspect are the connection technologies in use, which may provide different levels of reliability, and the accuracy of the data produced at the edge that could be unreliable due to particular environment conditions. As an example, an edge computing device, such as a voice assistant, may continue to provide service to local users even during cloud service or internet outages.\n\nSpeed\nEdge computing brings analytical computational resources close to the end users and therefore can increase the responsiveness and throughput of applications. A well-designed edge platform would significantly outperform a traditional cloud-based system. Some applications rely on short response times, making edge computing a significantly more feasible option than cloud computing. Examples range from IoT to autonomous driving, anything health or human / public safety relevant, or involving human perception such as facial recognition, which typically takes a human between 370-620 ms to perform. Edge computing is more likely to be able to mimic the same perception speed as humans, which is useful in applications such as augmented reality, where the headset should preferably recognize who a person is at the same time as the wearer does.\n\nEfficiency\nDue to the nearness of the analytical resources to the end users, sophisticated analytical tools and artificial intelligence tools can run on the edge of the system.",
+            "empowerment": 0.016091954022988506,
+            "answer_length": 435
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "Which data model defines a knowledge graph, and which neural network family is tailored to operate directly on that structure?",
+            "selected_titles": [
+              "Knowledge graph",
+              "Knowledge graph",
+              "Knowledge graph",
+              "Knowledge Graph",
+              "Knowledge graph embedding"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "In knowledge representation and reasoning, a knowledge graph is a knowledge base that uses a graph-structured data model or topology to represent and operate on data. Knowledge graphs are often used to store interlinked descriptions of entities \u2013  objects, events, situations or abstract concepts \u2013  while also encoding the free-form semantics or relationships underlying these entities.\nSince the development of the Semantic Web, knowledge graphs have often been associated with linked open data projects, focusing on the connections between concepts and entities. They are also historically associated with and used by search engines such as Google, Bing, and Yahoo; knowledge engines and question-answering services such as WolframAlpha, Apple's Siri, and Amazon Alexa; and social networks such as LinkedIn and Facebook.\nRecent developments in data science and machine learning, particularly in graph neural networks and representation learning and also in machine learning, have broadened the scope of knowledge graphs beyond their traditional use in search engines and recommender systems. They are increasingly used in scientific research, with notable applications in fields such as genomics, proteomics, and systems biology.\n\nHistory\nThe term was coined as early as 1972 by the Austrian linguist Edgar W. Schneider, in a discussion of how to build modular instructional systems for courses. In the late 1980s, the University of Groningen and University of Twente jointly began a project called Knowledge Graphs, focusing on the design of semantic networks with edges restricted to a limited set of relations, to facilitate algebras on the graph. In subsequent decades, the distinction between semantic networks and knowledge graphs was blurred.\nSome early knowledge graphs were topic-specific. In 1985, Wordnet was founded, capturing semantic relationships between words and meanings \u2013  an application of this idea to language itself. In 2005, Marc Wirk founded Geonames to capture relationships between different geographic names and locales and associated entities. In 1998 Andrew Edmonds of Science in Finance Ltd in the UK created a system called ThinkBase that offered fuzzy-logic based reasoning in a graphical context.\nIn 2007, both DBpedia and Freebase were founded as graph-based knowledge repositories for general-purpose knowledge. DBpedia focused exclusively on data extracted from Wikipedia, while Freebase also included a range of public datasets. Neither described themselves as a 'knowledge graph' but developed and described related concepts.\nIn 2012, Google introduced their Knowledge Graph, building on DBpedia and Freebase among other sources. They later incorporated RDFa, Microdata, JSON-LD content extracted from indexed web pages, including",
+            "empowerment": 0.004901960784313725,
+            "answer_length": 408
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "Which training approach produces large language models, and what transformer innovation enables them to scale?",
+            "selected_titles": [
+              "Large language model",
+              "Large language model",
+              "Large language model",
+              "Large language model",
+              "Transformer (deep learning architecture)"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A large language model (LLM) is a language model trained with self-supervised machine learning on a vast amount of text, designed for natural language processing tasks, especially language generation. The largest and most capable LLMs are generative pre-trained transformers (GPTs) and provide the core capabilities of chatbots such as ChatGPT, Gemini and Claude. LLMs can be fine-tuned for specific tasks or guided by prompt engineering. These models acquire predictive power regarding syntax, semantics, and ontologies inherent in human language corpora, but they also inherit inaccuracies and biases present in the data they are trained on.\nThey consist of billions to trillions of parameters and operate as general-purpose sequence models, generating, summarizing, translating, and reasoning over text. LLMs represent a significant new technology in their ability to generalize across tasks with minimal task-specific supervision, enabling capabilities like conversational agents, code generation, knowledge retrieval, and automated reasoning that previously required bespoke systems.\nLLMs evolved from earlier statistical and recurrent neural network approaches to language modeling. The transformer architecture, introduced in 2017, replaced recurrence with self-attention, allowing efficient parallelization, longer context handling, and scalable training on unprecedented data volumes. This innovation enabled models like GPT, BERT, and their successors, which demonstrated emergent behaviors at scale such as few-shot learning and compositional reasoning.\nReinforcement learning, particularly policy gradient algorithms, has been adapted to fine-tune LLMs for desired behaviors beyond raw next-token prediction. Reinforcement learning from human feedback (RLHF) applies these methods to optimize a policy, the LLM's output distribution, against reward signals derived from human or automated preference judgments. This has been critical for aligning model outputs with user expectations, improving factuality, reducing harmful responses, and enhancing task performance.\nBenchmark evaluations for LLMs have evolved from narrow linguistic assessments toward comprehensive, multi-task evaluations measuring reasoning, factual accuracy, alignment, and safety. Hill climbing, iteratively optimizing models against benchmarks, has emerged as a dominant strategy, producing rapid incremental performance gains but raising concerns of overfitting to benchmarks rather than achieving genuine generalization or robust capability improvements.\n\nHistory\nBefore the emergence of transformer-based models in 2017, some language models were considered large relative to the computational and data constraints of their time. In the early 1990s, IBM's statistical models pioneered word alignment techniques for machine translation",
+            "empowerment": 0.007894736842105263,
+            "answer_length": 380
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "Why are embeddings valuable to recommender systems, and what does data mining contribute to those recommendations?",
+            "selected_titles": [
+              "Recommender system",
+              "Recommender system",
+              "Recommender system",
+              "Recommender system",
+              "Cold start (recommender systems)"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A recommender system (RecSys), or a recommendation system (sometimes replacing system with terms such as platform, engine, or algorithm) and sometimes only called \"the algorithm\" or \"algorithm\", is a subclass of information filtering system that provides suggestions for items that are most pertinent to a particular user. Recommender systems are particularly useful when an individual needs to choose an item from a potentially overwhelming number of items that a service may offer. Modern recommendation systems such as those used on large social media sites and streaming services make extensive use of AI, machine learning and related techniques to learn the behavior and preferences of each user and categorize content to tailor their feed individually. For example, embeddings can be used to compare one given document with many other documents and return those that are most similar to the given document. The documents can be any type of media, such as news articles or user engagement with the movies they have watched.\nTypically, the suggestions refer to various decision-making processes, such as what product to purchase, what music to listen to, or what online news to read.\nRecommender systems are used in a variety of areas, with commonly recognised examples taking the form of playlist generators for video and music services, product recommenders for online stores, or content recommenders for social media platforms and open web content recommenders. These systems can operate using a single type of input, like music, or multiple inputs within and across platforms like news, books and search queries. There are also popular recommender systems for specific topics like restaurants and online dating. Recommender systems have also been developed to explore research articles and experts, collaborators, and financial services.\nA content discovery platform is an implemented software recommendation platform which uses recommender system tools. It utilizes user metadata in order to discover and recommend appropriate content, whilst reducing ongoing maintenance and development costs. A content discovery platform delivers personalized content to websites, mobile devices and set-top boxes. A large range of content discovery platforms currently exist for various forms of content ranging from news articles and academic journal articles to television. As operators compete to be the gateway to home entertainment, personalized television is a key service differentiator. Academic content discovery has recently become another area of interest, with several companies being established to help academic researchers keep up to date with relevant academic content and serendipitously discover new content.\n\nOverview\nRecommender systems usually make use of either or both collaborative filtering and content-based filtering, as well as other systems such as knowledge-based",
+            "empowerment": 0.018604651162790697,
+            "answer_length": 430
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "What capability distinguishes an autonomous robot, and how does robotics as a field enable building such machines?",
+            "selected_titles": [
+              "Autonomous robot",
+              "Autonomous robot",
+              "Outline of robotics",
+              "Robotics",
+              "Autonomous robot"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "An autonomous robot is a robot that acts without recourse to human control. Historic examples include space probes. Modern examples include self-driving vacuums and cars.\nIndustrial robot arms that work on assembly lines inside factories may also be considered autonomous robots, though their autonomy is restricted due to a highly structured environment and their inability to locomote.\n\nComponents and criteria of robotic autonomy\nSelf-maintenance\nThe first requirement for complete physical autonomy is the ability for a robot to take care of itself. Many of the battery-powered robots on the market today can find and connect to a charging station, and some toys like Sony's Aibo are capable of self-docking to charge their batteries.\nSelf-maintenance is based on \"proprioception\", or sensing one's own internal status. In the battery charging example, the robot can tell proprioceptively that its batteries are low, and it then seeks the charger. Another common proprioceptive sensor is for heat monitoring. Increased proprioception will be required for robots to work autonomously near people and in harsh environments. Common proprioceptive sensors include thermal, optical, and haptic sensing, as well as the Hall effect (electric).\n\nSensing the environment\nExteroception is sensing things about the environment. Autonomous robots must have a range of environmental sensors to perform their task and stay out of trouble. The autonomous robot can recognize sensor failures and minimize the impact on the performance caused by failures.\n\nCommon exteroceptive sensors include the electromagnetic spectrum, sound, touch, chemical (smell, odor), temperature, range to various objects, and altitude.\nSome robotic lawn mowers will adapt their programming by detecting the speed in which grass grows as needed to maintain a perfectly cut lawn, and some vacuum cleaning robots have dirt detectors that sense how much dirt is being picked up and use this information to tell them to stay in one area longer.\n\nTask performance\nThe next step in autonomous behavior is to actually perform a physical task. A new area showing commercial promise is domestic robots, with a flood of small vacuuming robots beginning with iRobot and Electrolux in 2002. While the level of intelligence is not high in these systems, they navigate over wide areas and pilot in tight situations around homes using contact and non-contact sensors. Both of these robots use proprietary algorithms to increase coverage over simple random bounce.\nThe next level of autonomous task performance requires a robot to perform conditional tasks. For instance, security robots can be programmed to detect intruders and respond in a particular way depending upon",
+            "empowerment": 0.019002375296912115,
+            "answer_length": 421
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.2,
+            "directness": 1.0,
+            "question": "How do augmented reality systems depend on computer vision to align overlays with the real world?",
+            "selected_titles": [
+              "Augmented reality",
+              "Augmented reality",
+              "Augmented reality",
+              "Augmented reality",
+              "Augmented reality"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "task.\n\nMedicine\nGuidance overlays and image fusion support planning and intraoperative visualization across several specialties; reviews note accuracy/registration constraints and workflow integration issues.\n\nIndustry\nHands-free work instructions, inspection, and remote assistance tied to assets; evidence highlights productivity gains alongside limits around tracking robustness, ergonomics, and change management.\n\nEntertainment and games\nLocation-based and camera-based play place virtual objects in real spaces; recent surveys cover design patterns, effectiveness, and safety/attention trade-offs.\n\nNavigation and maps\nAugmented reality navigation overlays route guidance or hazard cues onto the real scene, typically via smartphone \"live view\" or in-vehicle heads-up displays. Research finds AR can improve wayfinding and driver situation awareness, but human-factors trade-offs (distraction, cognitive load, occlusion) matter for safety-critical use.\nSee also: Head-up display, Automotive navigation system, Wayfinding\n\nArchitecture, engineering, and construction\nIn the AEC sector, AR is used for design visualization, on-site verification against BIM models, clash detection, and guided assembly/inspection. Systematic reviews report benefits for communication and error reduction, while noting limits around tracking robustness and workflow integration.\n\nArchaeology\nAR has been used to aid archaeological research. By augmenting archaeological features onto the modern landscape, AR allows archaeologists to formulate possible site configurations from extant structures. Computer generated models of ruins, buildings, landscapes or even ancient people have been recycled into early archaeological AR applications. For example, implementing a system like VITA (Visual Interaction Tool for Archaeology) will allow users to imagine and investigate instant excavation results without leaving their home. Each user can collaborate by mutually \"navigating, searching, and viewing data\". Hrvoje Benko, a researcher in the computer science department at Columbia University, points out that these particular systems and others like them can provide \"3D panoramic images and 3D models of the site itself at different excavation stages\" all the while organizing much of the data in a collaborative way that is easy to use. Collaborative AR systems supply multimodal interactions that combine the real world with virtual images of both environments.\n\nCommerce\nAR is used to integrate print and video marketing. Printed marketing material can be designed with certain \"trigger\" images that, when scanned by an AR-enabled device using image recognition, activate a video version of the promotional material. A major difference between augmented reality and straightforward image recognition is that one can overlay multiple media at the same time in the view screen",
+            "empowerment": 0.03258145363408521,
+            "answer_length": 399
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What interaction challenge does human\u2013computer interaction study, and how do augmented reality interfaces illustrate it?",
+            "selected_titles": [
+              "Human\u2013computer interaction",
+              "Human\u2013computer interaction",
+              "Human\u2013computer interaction",
+              "Human\u2013computer interaction",
+              "Augmented reality"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "the creators' understanding regarding the clients' qualities, needs, and practices. Specialized examinations can include either investigation of how individuals use related advances or the framework plans.\n\nCurrent research\nTopics in human\u2013computer interaction include the following:\n\nHuman\u2013AI Interaction\nHuman-AI Interaction explores how users engage with artificial intelligence systems, particularly focusing on usability, trust, and interpretability. The research mainly aims to design AI-driven interfaces that are transparent, explainable, and ethically responsible. Studies highlight the importance of explainable AI (XAI) and human-in-the-loop decision-making, ensuring that AI outputs are understandable and trustworthy. Researchers also develop design guidelines for human-AI interaction, improving the collaboration between users and AI systems.\n\nAugmented reality (AR)\nAugmented reality (AR) integrates digital content with the real world. It enhances human perception and interaction with physical environments. AR research mainly focuses on adaptive user interfaces, multimodal input techniques, and real-world object interaction. Advances in wearable AR technology improve usability, enabling more natural interaction with AR applications.\n\nVirtual reality (VR)\nVirtual reality (VR) creates a fully immersive digital environment, allowing users to interact with computer-generated worlds through sensory input devices. Research focuses on user presence, interaction techniques, and cognitive effects of immersion. A key area of study is the impact of VR on cognitive load and user adaptability, influencing how users process information in virtual spaces.\n\nMixed reality (MR)\nMixed reality (MR) blends elements of both augmented reality (AR) and virtual reality (VR). It enables real-time interaction with both physical and digital objects. HCI research in MR concentrates on spatial computing, real-world object interaction, and context-aware adaptive interfaces. MR technologies are increasingly applied in education, training simulations, and healthcare, enhancing learning outcomes and user engagement.\n\nExtended reality (XR)\nExtended reality (XR) is an umbrella term encompassing AR, VR, and MR, offering a continuum between real and virtual environments. Research investigates user adaptability, interaction paradigms, and ethical implications of immersive technologies. Recent studies highlight how AI-driven personalization and adaptive interfaces improve the usability of XR applications.\n\nAccessibility\nAccessibility in human\u2013computer interaction (HCI) focuses on designing inclusive digital experiences, ensuring usability for people with diverse abilities. Research in this area is related to assistive technologies, adaptive interfaces, and universal design principles. Studies indicate that accessible design benefits not only people with disabilities but also",
+            "empowerment": 0.012953367875647668,
+            "answer_length": 386
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "Which paradigm offers elastic pools of shared resources on demand, and how does edge computing adapt that model when latency matters?",
+            "selected_titles": [
+              "Edge computing",
+              "Edge computing",
+              "Edge computing",
+              "Edge computing",
+              "Cloud computing"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "On the other hand, by keeping and processing data at the edge, it is possible to increase privacy by minimizing the transmission of sensitive information to the cloud. Furthermore, the ownership of collected data shifts from service providers to end-users.\n\nScalability\nScalability in a distributed network must face different issues. First, it must take into account the heterogeneity of the devices, having different performance and energy constraints, the highly dynamic condition, and the reliability of the connections compared to more robust infrastructure of cloud data centers. Moreover, security requirements may introduce further latency in the communication between nodes, which may slow down the scaling process.\nThe state-of-the-art scheduling technique can increase the effective utilization of edge resources and scales the edge server by assigning minimum edge resources to each offloaded task.\n\nReliability\nManagement of failovers is crucial in order to keep a service alive. If a single node goes down and is unreachable, users should still be able to access a service without interruptions. Moreover, edge computing systems must provide actions to recover from a failure and alert the user about the incident. To this aim, each device must maintain the network topology of the entire distributed system, so that detection of errors and recovery become easily applicable. Other factors that may influence this aspect are the connection technologies in use, which may provide different levels of reliability, and the accuracy of the data produced at the edge that could be unreliable due to particular environment conditions. As an example, an edge computing device, such as a voice assistant, may continue to provide service to local users even during cloud service or internet outages.\n\nSpeed\nEdge computing brings analytical computational resources close to the end users and therefore can increase the responsiveness and throughput of applications. A well-designed edge platform would significantly outperform a traditional cloud-based system. Some applications rely on short response times, making edge computing a significantly more feasible option than cloud computing. Examples range from IoT to autonomous driving, anything health or human / public safety relevant, or involving human perception such as facial recognition, which typically takes a human between 370-620 ms to perform. Edge computing is more likely to be able to mimic the same perception speed as humans, which is useful in applications such as augmented reality, where the headset should preferably recognize who a person is at the same time as the wearer does.\n\nEfficiency\nDue to the nearness of the analytical resources to the end users, sophisticated analytical tools and artificial intelligence tools can run on the edge of the system.",
+            "empowerment": 0.016091954022988506,
+            "answer_length": 435
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "Why does the growth of the Internet of Things raise computer security stakes?",
+            "selected_titles": [
+              "Internet of things",
+              "Internet of things",
+              "Internet of things",
+              "Internet of things",
+              "Computer security"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "at Cloudflare noted that native DDoS vulnerabilities exist in IoT devices due to a poor implementation of the Publish\u2013subscribe pattern. These sorts of attacks have caused security experts to view IoT as a real threat to Internet services.\nThe U.S. National Intelligence Council in an unclassified report maintains that it would be hard to deny \"access to networks of sensors and remotely-controlled objects by enemies of the United States, criminals, and mischief makers... An open market for aggregated sensor data could serve the interests of commerce and security no less than it helps criminals and spies identify vulnerable targets. Thus, massively parallel sensor fusion may undermine social cohesion, if it proves to be fundamentally incompatible with Fourth-Amendment guarantees against unreasonable search.\" In general, the intelligence community views the Internet of things as a rich source of data.\nOn 31 January 2019, The Washington Post wrote an article regarding the security and ethical challenges that can occur with IoT doorbells and cameras: \"Last month, Ring got caught allowing its team in Ukraine to view and annotate certain user videos; the company says it only looks at publicly shared videos and those from Ring owners who provide consent. Just last week, a California family's Nest camera let a hacker take over and broadcast fake audio warnings about a missile attack, not to mention peer in on them, when they used a weak password.\"\nThere have been a range of responses to concerns over security. The Internet of Things Security Foundation (IoTSF) was launched on 23 September 2015 with a mission to secure the Internet of things by promoting knowledge and best practice. Its founding board is made from technology providers and telecommunications companies. In addition, large IT companies are continually developing innovative solutions to ensure the security of IoT devices. In 2017, Mozilla launched Project Things, which allows to route IoT devices through a safe Web of Things gateway. As per the estimates from KBV Research, the overall IoT security market would grow at 27.9% rate during 2016\u20132022 as a result of growing infrastructural concerns and diversified usage of Internet of things.\nGovernmental regulation is argued by some to be necessary to secure IoT devices and the wider Internet \u2013 as market incentives to secure IoT devices is insufficient. It was found that due to the nature of most of the IoT development boards, they generate predictable and weak keys which make it easy to be utilized by man-in-the-middle attack. However, various hardening approaches",
+            "empowerment": 0.009523809523809525,
+            "answer_length": 420
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "How are cyber-physical systems related to the Internet of Things, and what distinguishes CPS deployments?",
+            "selected_titles": [
+              "Cyber-physical system",
+              "Cyber-physical system",
+              "Cyber-physical system",
+              "Cyber-physical system",
+              "Internet of things"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Cyber-physical systems (CPS) are mechanisms controlled and monitored by computer algorithms, tightly integrated with the internet and its users. In cyber-physical systems, physical and software components are deeply intertwined, able to operate on different spatial and temporal scales, exhibit multiple and distinct behavioral modalities, and interact with each other in ways that change with context. \nCPS involves transdisciplinary approaches, merging theory of cybernetics, mechatronics, design and process science. The process control is often referred to as embedded systems. In embedded systems, the emphasis tends to be more on the computational elements, and less on an intense link between the computational and physical elements. CPS is also similar to the Internet of Things (IoT), sharing the same basic architecture; nevertheless, CPS presents a higher combination and coordination between physical and computational elements.\nExamples of CPS include smart grid, autonomous automobile systems, medical monitoring, industrial control systems, robotics systems, recycling and automatic pilot avionics. Precursors of cyber-physical systems can be found in areas as diverse as aerospace, automotive, chemical processes, civil infrastructure, energy, healthcare, manufacturing, transportation, entertainment, and consumer appliances.\n\nOverview\nUnlike more traditional embedded systems, a full-fledged CPS is typically designed as a network of interacting elements with physical input and output instead of as standalone devices. The notion is closely tied to concepts of robotics and sensor networks with intelligence mechanisms proper of computational intelligence leading the pathway.  Ongoing advances in science and engineering improve the link between computational and physical elements by means of intelligent mechanisms, increasing the adaptability, autonomy, efficiency, functionality, reliability, safety, and usability of cyber-physical systems.\nThis will broaden the potential of cyber-physical systems in several directions, including: intervention (e.g., collision avoidance); precision (e.g., robotic surgery and nano-level manufacturing); operation in dangerous or inaccessible environments (e.g., search and rescue, firefighting, and deep-sea exploration); coordination (e.g., air traffic control, war fighting); efficiency (e.g., zero-net energy buildings); and augmentation of human capabilities (e.g. in healthcare monitoring and delivery).\n\nMobile cyber-physical systems\nMobile cyber-physical systems, in which the physical system under study has inherent mobility, are a prominent subcategory of cyber-physical systems. Examples of mobile physical systems include mobile robotics and electronics transported by humans or animals",
+            "empowerment": 0.005319148936170213,
+            "answer_length": 376
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "How does high-performance computing make use of supercomputers, and how is supercomputer performance typically compared?",
+            "selected_titles": [
+              "Supercomputer",
+              "Supercomputer",
+              "Supercomputer",
+              "Supercomputer",
+              "High-performance computing"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A supercomputer is a type of computer with a high level of performance as compared to a general-purpose computer. Supercomputers play an important role in the field of computational science, and are used for a wide range of computationally intensive tasks in various fields including quantum mechanics, weather forecasting, climate research, oil and gas exploration, molecular modeling (computing the structures and properties of chemical compounds, biological macromolecules, polymers, and crystals), and physical simulations (such as simulations of aerodynamics, of the early moments of the universe, and of nuclear weapons). They have been essential in the field of cryptanalysis.\nThe performance of a supercomputer is commonly measured in floating-point operations per second (FLOPS) instead of million instructions per second (MIPS). Since 2022, exascale supercomputers have existed which can perform over 1018 FLOPS. For comparison, a desktop computer has performance in the range of hundreds of gigaFLOPS (1011) to tens of teraFLOPS (1013). Since November 2017, all of the world's fastest 500 supercomputers run on Linux-based operating systems. Additional research is being conducted in the United States, the European Union, Taiwan, Japan, and China to build faster, more powerful and technologically superior exascale supercomputers.\nSupercomputers were introduced in the 1960s, and for several decades the fastest was made by Seymour Cray at Control Data Corporation (CDC), Cray Research and subsequent companies bearing his name or monogram. The first such machines were highly tuned conventional designs that ran more quickly than their more general-purpose contemporaries. Through the decade, increasing amounts of parallelism were added, with one to four processors being typical. In the 1970s, vector processors operating on large arrays of data came to dominate. A notable example is the highly successful Cray-1 of 1976. Vector computers remained the dominant design into the 1990s. From then until today, massively parallel supercomputers with tens of thousands of off-the-shelf processors became the norm.\nThe U.S. has long been a leader in the supercomputer field, initially through Cray's nearly uninterrupted dominance, and later through a variety of technology companies. Japan made significant advancements in the field during the 1980s and 1990s, while China has become increasingly active in supercomputing in recent years. As of November 2024,",
+            "empowerment": 0.005434782608695652,
+            "answer_length": 368
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "In what way do parallel computing and distributed computing differ when coordinating tasks?",
+            "selected_titles": [
+              "Parallel computing",
+              "Distributed computing",
+              "Distributed computing",
+              "Distributed computing",
+              "Distributed computing"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Parallel computing is a type of computation in which many calculations or processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: bit-level, instruction-level, data, and task parallelism. Parallelism has long been employed in high-performance computing, but has gained broader interest due to the physical constraints preventing frequency scaling. As power consumption (and consequently heat generation) by computers has become a concern in recent years, parallel computing has become the dominant paradigm in computer architecture, mainly in the form of multi-core processors.\n\nIn computer science, parallelism and concurrency are two different things: a parallel program uses multiple CPU cores, each core performing a task independently. On the other hand, concurrency enables a program to deal with multiple tasks even on a single CPU core; the core switches between tasks (i.e. threads) without necessarily completing each one. A program can have both, neither or a combination of parallelism and concurrency characteristics.\nParallel computers can be roughly classified according to the level at which the hardware supports parallelism, with multi-core and multi-processor computers having multiple processing elements within a single machine, while clusters, MPPs, and grids use multiple computers to work on the same task. Specialized parallel computer architectures are sometimes used alongside traditional processors, for accelerating specific tasks.\nIn some cases parallelism is transparent to the programmer, such as in bit-level or instruction-level parallelism, but explicitly parallel algorithms, particularly those that use concurrency, are more difficult to write than sequential ones, because concurrency introduces several new classes of potential software bugs, of which race conditions are the most common. Communication and synchronization between the different subtasks are typically some of the greatest obstacles to getting optimal parallel program performance.\nA theoretical upper bound on the speed-up of a single program as a result of parallelization is given by Amdahl's law, which states that it is limited by the fraction of time for which the parallelization can be utilised.\n\nBackground\nTraditionally, computer software has been written for serial computation. To solve a problem, an algorithm is constructed and implemented as a serial stream of instructions. These instructions are executed on a central processing unit on one computer. Only one instruction may execute at a time\u2014after that instruction is finished, the next one is executed.\nParallel computing, on the other hand, uses multiple processing elements simultaneously to solve a problem. This is accomplished by breaking the",
+            "empowerment": 0.021176470588235293,
+            "answer_length": 425
+          },
+          {
+            "comprehensiveness": 0.6666666666666666,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "How do computational biology and bioinformatics collaborate on biological data, and how does computational chemistry apply similar techniques elsewhere?",
+            "selected_titles": [
+              "Bioinformatics",
+              "Computational biology",
+              "Computational biology",
+              "Bioinformatics",
+              "Computational biology"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Bioinformatics ( ) is an interdisciplinary field of science that develops methods and software tools for understanding biological data, especially when the data sets are large and complex. Bioinformatics uses biology, chemistry, physics, computer science, data science, computer programming, information engineering, mathematics and statistics to analyze and interpret biological data. This process  can sometimes be referred to as computational biology, however the distinction between the two terms is often disputed. To some, the term computational biology refers to building and using models of biological systems.\nComputational, statistical, and computer programming techniques have been used  for computer simulation analyses of biological queries. They include reused specific analysis \"pipelines\", particularly in the field of genomics, such as by the identification of genes and single nucleotide polymorphisms (SNPs). These pipelines are used to better understand the genetic basis of disease, unique adaptations, desirable properties (especially in agricultural species), or differences between populations. Bioinformatics also includes proteomics, which aims  to understand the organizational principles within nucleic acid and protein sequences.\nImage and signal processing allow extraction of useful results from large amounts of raw data. It aids in sequencing and annotating genomes and their observed mutations. Bioinformatics includes text mining of biological literature and the development of biological and gene ontologies to organize and query biological data. It also plays a role in the analysis of gene and protein expression and regulation. Bioinformatic tools aid in comparing, analyzing, interpreting genetic and genomic data and in the understanding of evolutionary aspects of molecular biology. At a more integrative level, it helps analyze and catalogue the biological pathways and networks that are an important part of systems biology. In structural biology, it aids in the simulation and modeling of DNA, RNA, proteins as well as biomolecular interactions.\n\nHistory\nThe first definition of the term bioinformatics was coined by Paulien Hogeweg and Ben Hesper in 1970, to refer to the study of information processes in biotic systems. This definition placed bioinformatics as a field parallel to biochemistry (the study of chemical processes in biological systems).\nBioinformatics and computational biology involved the analysis of biological data, particularly DNA, RNA, and protein sequences. The field of bioinformatics experienced explosive growth starting in the mid-1990s, driven largely by the Human Genome Project and by rapid advances in DNA sequencing technology.\nAnalyzing biological data to produce meaningful information involves writing and running software programs that use algorithms from graph theory",
+            "empowerment": 0.01256281407035176,
+            "answer_length": 398
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "What hardware role does a microprocessor play, and how do operating systems depend on it?",
+            "selected_titles": [
+              "Microprocessor",
+              "Microprocessor",
+              "Computer hardware",
+              "Microprocessor",
+              "Operating system"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A microprocessor is a computer processor for which the data processing logic and control is included on a single integrated circuit (IC), or a small number of ICs. The microprocessor contains the arithmetic, logic, and control circuitry required to perform the functions of a computer's central processing unit (CPU). The IC is capable of interpreting and executing program instructions and performing arithmetic operations. The microprocessor is a multipurpose, clock-driven, register-based, digital integrated circuit that accepts binary data as input, processes it according to instructions stored in its memory, and provides results (also in binary form) as output. Microprocessors contain both combinational logic and sequential digital logic, and operate on numbers and symbols represented in the binary number system.\nThe integration of a whole CPU onto a single or a few integrated circuits using Very-Large-Scale Integration (VLSI) greatly reduced the cost of processing power. Integrated circuit processors are produced in large numbers by highly automated metal\u2013oxide\u2013semiconductor (MOS) fabrication processes, resulting in a relatively low unit price. Single-chip processors increase reliability because there are fewer electrical connections that can fail. As microprocessor designs improve, the cost of manufacturing a chip (with smaller components built on a semiconductor chip the same size) generally stays the same, according to Rock's law.\nBefore microprocessors, small computers had been built using racks of circuit boards with many medium- and small-scale integrated circuits.  These were typically of the TTL type. Microprocessors combined this into one or a few large-scale ICs. While there is disagreement over who deserves credit for the invention of the microprocessor, the first commercially available microprocessor was the Intel 4004, designed by Federico Faggin and introduced in 1971.\nContinued increases in microprocessor capacity have since rendered other forms of computers almost completely obsolete (see history of computing hardware), with one or more microprocessors used in everything from the smallest embedded systems and handheld devices to the largest mainframes and supercomputers.\nA microprocessor is distinct from a microcontroller including a system on a chip. A microprocessor is related but distinct from a digital signal processor, a specialized microprocessor chip, with its architecture optimized for the operational needs of digital signal processing.\n\nStructure\nThe complexity of an integrated circuit is bounded by physical limitations on the number of",
+            "empowerment": 0.013123359580052493,
+            "answer_length": 381
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What distinguishes quantum computing from the classical high-performance systems used in scientific workloads?",
+            "selected_titles": [
+              "Quantum computing",
+              "Computing",
+              "Quantum computing",
+              "Quantum computing",
+              "Computing"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A quantum computer is a (real or theoretical) computer that uses quantum mechanical phenomena in an essential way: it exploits superposed and entangled states, and the intrinsically non-deterministic outcomes of quantum measurements, as features of its computation. Quantum computers can be viewed as sampling from quantum systems that evolve in ways that may be described as operating on an enormous number of possibilities simultaneously, though still subject to strict computational constraints. By contrast, ordinary (\"classical\") computers operate according to deterministic rules. (A classical computer can, in principle, be replicated by a classical mechanical device, with only a simple multiple of time cost. On the other hand (it is believed), a quantum computer would require exponentially more time and energy to be simulated classically.) It is widely believed that a quantum computer could perform some calculations exponentially faster than any classical computer. For example, a large-scale quantum computer could break some widely used public-key cryptographic schemes and aid physicists in performing physical simulations. However, current hardware implementations of quantum computation are largely experimental and only suitable for specialized tasks.\nThe basic unit of information in quantum computing, the qubit (or \"quantum bit\"), serves the same function as the bit in ordinary or \"classical\" computing. However, unlike a classical bit, which can be in one of two states (a binary), a qubit can exist in a linear combination of two states known as a quantum superposition. The result of measuring a qubit is one of the two states given by a probabilistic rule. If a quantum computer manipulates the qubit in a particular way, wave interference effects amplify the probability of the desired measurement result. The design of quantum algorithms involves creating procedures that allow a quantum computer to perform this amplification.\nQuantum computers are not yet practical for real-world applications. Physically engineering high-quality qubits has proven to be challenging. If a physical qubit is not sufficiently isolated from its environment, it suffers from quantum decoherence, introducing noise into calculations. National governments have invested heavily in experimental research aimed at developing scalable qubits with longer coherence times and lower error rates. Example implementations include superconductors (which isolate an electrical current by eliminating electrical resistance) and ion traps (which confine a single atomic particle using electromagnetic fields). Researchers have claimed, and are widely believed to be correct, that certain quantum devices can outperform classical computers on narrowly defined tasks, a milestone",
+            "empowerment": 0.017369727047146403,
+            "answer_length": 403
+          }
+        ]
+      },
+      "graphrag": {
+        "averages": {
+          "comprehensiveness": 0.875,
+          "diversity": 0.5875,
+          "directness": 1.0,
+          "empowerment": 0.010019765648776584,
+          "answer_length": 400.6875
+        },
+        "details": [
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "How do the Internet of Things and edge computing complement each other when a deployment needs low-latency intelligence?",
+            "selected_titles": [
+              "Edge computing",
+              "Artificial intelligence systems integration",
+              "Fog computing",
+              "Internet of things",
+              "Internet of things"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Edge computing is a distributed computing model that brings computation and data storage closer to the sources of data. More broadly, it refers to any design that pushes computation physically closer to a user, so as to reduce the latency compared to when an application runs on a centralized data center.\nThe term began being used in the 1990s to describe content delivery networks\u2014these were used to deliver website and video content from servers located near users. In the early 2000s, these systems expanded their scope to hosting other applications, leading to early edge computing services. These services could do things like find dealers, manage shopping carts, gather real-time data, and place ads.\nThe Internet of Things (IoT), where devices are connected to the internet, is often linked with edge computing.\n\nDefinition\nEdge computing involves running computer programs that deliver quick responses close to where requests are made. Karim Arabi, during an IEEE DAC 2014 keynote and later at an MIT MTL Seminar in 2015, described edge computing as computing that occurs outside the cloud, at the network's edge, particularly for applications needing immediate data processing. \nEdge computing is often equated with fog computing, particularly in smaller setups. However, in larger deployments, such as smart cities, fog computing serves as a distinct layer between edge computing and cloud computing, with each layer having its own responsibilities.\n\"The State of the Edge\" report explains that edge computing focuses on servers located close to the end-users. Alex Reznik, Chair of the ETSI MEC ISG standards committee, defines 'edge' loosely as anything that's not a traditional data center.\nIn cloud gaming, edge nodes, known as \"gamelets\", are typically within one or two network hops from the client, ensuring quick response times for real-time games.\nEdge computing might use virtualization technology to simplify deploying and managing various applications on edge servers.\n\nConcept\nIn 2018, the world's data was expected to grow 61 percent to 175 zettabytes by 2025. According to research firm Gartner, around 10 percent of enterprise-generated data is created and processed outside a traditional centralized data center or cloud. By 2025, the firm predicts that this figure will reach 75 percent. The increase in IoT devices at the edge of the network is producing a massive amount of data \u2014 storing and using all that data in cloud data centers pushes network bandwidth requirements to the limit. Despite the improvements in network technology, data centers cannot guarantee acceptable transfer rates and response times, which often",
+            "empowerment": 0.004796163069544364,
+            "answer_length": 417
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What privacy requirement motivates federated learning, and how does edge computing help organizations meet it?",
+            "selected_titles": [
+              "Federated learning",
+              "Edge computing",
+              "Federated learning",
+              "Edge computing",
+              "Federated learning"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Federated learning (also known as collaborative learning) is a machine learning technique in a setting where multiple entities (often called clients) collaboratively train a model while keeping their data decentralized, rather than centrally stored. A defining characteristic of federated learning is data heterogeneity. Because client data is decentralized, data samples held by each client may not be independently and identically distributed.\nFederated learning is generally concerned with and motivated by issues such as data privacy, data minimization, and data access rights. Its applications involve a variety of research areas including defence, telecommunications, the Internet of things, and pharmaceuticals.\n\nDefinition\nFederated learning aims at training a machine learning algorithm, for instance deep neural networks, on multiple local datasets contained in local nodes without explicitly exchanging data samples. The general principle consists in training local models on local data samples and exchanging parameters (e.g. the weights and biases of a deep neural network) between these local nodes at some frequency to generate a global model shared by all nodes.\nThe main difference between federated learning and distributed learning lies in the assumptions made on the properties of the local datasets, as distributed learning originally aims at parallelizing computing power where federated learning originally aims at training on heterogeneous datasets. While distributed learning also aims at training a single model on multiple servers, a common underlying assumption is that the local datasets are independent and identically distributed (i.i.d.) and roughly have the same size. None of these hypotheses are made for federated learning; instead, the datasets are typically heterogeneous and their sizes may span several orders of magnitude. Moreover, the clients involved in federated learning may be unreliable as they are subject to more failures or drop out since they commonly rely on less powerful communication media (i.e. Wi-Fi) and battery-powered systems (i.e. smartphones and IoT devices) compared to distributed learning where nodes are typically datacenters that have powerful computational capabilities and are connected to one another with fast networks.\n\nMathematical formulation\nThe objective function for federated learning is as follows:\n\n  \n    \n      \n        f\n        (\n        \n          \n            x\n          \n          \n            1\n          \n        \n        ,\n        \u2026\n        ,\n        \n          \n            x\n          \n          \n            K\n          \n        \n        )\n        =\n        \n          \n            \n              1\n              K\n            \n          \n        \n        \n          \u2211\n          \n            i\n            =\n            1\n          \n          \n            K\n          \n        \n        \n          f\n          \n            i\n          \n        \n        (\n        \n          \n            x\n          \n          \n            i\n          \n        \n        )\n      \n    \n    {\\displaystyle f(\\mathbf {x} _{1},\\dots ,\\mathbf {x} _{K})={\\dfrac {1}{K}}\\sum _",
+            "empowerment": 0.0,
+            "answer_length": 375
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 1.0,
+            "directness": 1.0,
+            "question": "Which data model defines a knowledge graph, and which neural network family is tailored to operate directly on that structure?",
+            "selected_titles": [
+              "Knowledge graph",
+              "Graph neural network",
+              "Knowledge Graph (Google)",
+              "Semantic network",
+              "Conceptual graph"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "In knowledge representation and reasoning, a knowledge graph is a knowledge base that uses a graph-structured data model or topology to represent and operate on data. Knowledge graphs are often used to store interlinked descriptions of entities \u2013  objects, events, situations or abstract concepts \u2013  while also encoding the free-form semantics or relationships underlying these entities.\nSince the development of the Semantic Web, knowledge graphs have often been associated with linked open data projects, focusing on the connections between concepts and entities. They are also historically associated with and used by search engines such as Google, Bing, and Yahoo; knowledge engines and question-answering services such as WolframAlpha, Apple's Siri, and Amazon Alexa; and social networks such as LinkedIn and Facebook.\nRecent developments in data science and machine learning, particularly in graph neural networks and representation learning and also in machine learning, have broadened the scope of knowledge graphs beyond their traditional use in search engines and recommender systems. They are increasingly used in scientific research, with notable applications in fields such as genomics, proteomics, and systems biology.\n\nHistory\nThe term was coined as early as 1972 by the Austrian linguist Edgar W. Schneider, in a discussion of how to build modular instructional systems for courses. In the late 1980s, the University of Groningen and University of Twente jointly began a project called Knowledge Graphs, focusing on the design of semantic networks with edges restricted to a limited set of relations, to facilitate algebras on the graph. In subsequent decades, the distinction between semantic networks and knowledge graphs was blurred.\nSome early knowledge graphs were topic-specific. In 1985, Wordnet was founded, capturing semantic relationships between words and meanings \u2013  an application of this idea to language itself. In 2005, Marc Wirk founded Geonames to capture relationships between different geographic names and locales and associated entities. In 1998 Andrew Edmonds of Science in Finance Ltd in the UK created a system called ThinkBase that offered fuzzy-logic based reasoning in a graphical context.\nIn 2007, both DBpedia and Freebase were founded as graph-based knowledge repositories for general-purpose knowledge. DBpedia focused exclusively on data extracted from Wikipedia, while Freebase also included a range of public datasets. Neither described themselves as a 'knowledge graph' but developed and described related concepts.\nIn 2012, Google introduced their Knowledge Graph, building on DBpedia and Freebase among other sources. They later incorporated RDFa, Microdata, JSON-LD content extracted from indexed web pages, including",
+            "empowerment": 0.004901960784313725,
+            "answer_length": 408
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "Which training approach produces large language models, and what transformer innovation enables them to scale?",
+            "selected_titles": [
+              "Large language model",
+              "Large language model",
+              "Transformer (deep learning architecture)",
+              "Transformer (deep learning architecture)",
+              "Language model"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A large language model (LLM) is a language model trained with self-supervised machine learning on a vast amount of text, designed for natural language processing tasks, especially language generation. The largest and most capable LLMs are generative pre-trained transformers (GPTs) and provide the core capabilities of chatbots such as ChatGPT, Gemini and Claude. LLMs can be fine-tuned for specific tasks or guided by prompt engineering. These models acquire predictive power regarding syntax, semantics, and ontologies inherent in human language corpora, but they also inherit inaccuracies and biases present in the data they are trained on.\nThey consist of billions to trillions of parameters and operate as general-purpose sequence models, generating, summarizing, translating, and reasoning over text. LLMs represent a significant new technology in their ability to generalize across tasks with minimal task-specific supervision, enabling capabilities like conversational agents, code generation, knowledge retrieval, and automated reasoning that previously required bespoke systems.\nLLMs evolved from earlier statistical and recurrent neural network approaches to language modeling. The transformer architecture, introduced in 2017, replaced recurrence with self-attention, allowing efficient parallelization, longer context handling, and scalable training on unprecedented data volumes. This innovation enabled models like GPT, BERT, and their successors, which demonstrated emergent behaviors at scale such as few-shot learning and compositional reasoning.\nReinforcement learning, particularly policy gradient algorithms, has been adapted to fine-tune LLMs for desired behaviors beyond raw next-token prediction. Reinforcement learning from human feedback (RLHF) applies these methods to optimize a policy, the LLM's output distribution, against reward signals derived from human or automated preference judgments. This has been critical for aligning model outputs with user expectations, improving factuality, reducing harmful responses, and enhancing task performance.\nBenchmark evaluations for LLMs have evolved from narrow linguistic assessments toward comprehensive, multi-task evaluations measuring reasoning, factual accuracy, alignment, and safety. Hill climbing, iteratively optimizing models against benchmarks, has emerged as a dominant strategy, producing rapid incremental performance gains but raising concerns of overfitting to benchmarks rather than achieving genuine generalization or robust capability improvements.\n\nHistory\nBefore the emergence of transformer-based models in 2017, some language models were considered large relative to the computational and data constraints of their time. In the early 1990s, IBM's statistical models pioneered word alignment techniques for machine translation",
+            "empowerment": 0.007894736842105263,
+            "answer_length": 380
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "Why are embeddings valuable to recommender systems, and what does data mining contribute to those recommendations?",
+            "selected_titles": [
+              "Recommender system",
+              "Recommender system",
+              "Cold start (recommender systems)",
+              "Cold start (recommender systems)",
+              "Cold start (recommender systems)"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A recommender system (RecSys), or a recommendation system (sometimes replacing system with terms such as platform, engine, or algorithm) and sometimes only called \"the algorithm\" or \"algorithm\", is a subclass of information filtering system that provides suggestions for items that are most pertinent to a particular user. Recommender systems are particularly useful when an individual needs to choose an item from a potentially overwhelming number of items that a service may offer. Modern recommendation systems such as those used on large social media sites and streaming services make extensive use of AI, machine learning and related techniques to learn the behavior and preferences of each user and categorize content to tailor their feed individually. For example, embeddings can be used to compare one given document with many other documents and return those that are most similar to the given document. The documents can be any type of media, such as news articles or user engagement with the movies they have watched.\nTypically, the suggestions refer to various decision-making processes, such as what product to purchase, what music to listen to, or what online news to read.\nRecommender systems are used in a variety of areas, with commonly recognised examples taking the form of playlist generators for video and music services, product recommenders for online stores, or content recommenders for social media platforms and open web content recommenders. These systems can operate using a single type of input, like music, or multiple inputs within and across platforms like news, books and search queries. There are also popular recommender systems for specific topics like restaurants and online dating. Recommender systems have also been developed to explore research articles and experts, collaborators, and financial services.\nA content discovery platform is an implemented software recommendation platform which uses recommender system tools. It utilizes user metadata in order to discover and recommend appropriate content, whilst reducing ongoing maintenance and development costs. A content discovery platform delivers personalized content to websites, mobile devices and set-top boxes. A large range of content discovery platforms currently exist for various forms of content ranging from news articles and academic journal articles to television. As operators compete to be the gateway to home entertainment, personalized television is a key service differentiator. Academic content discovery has recently become another area of interest, with several companies being established to help academic researchers keep up to date with relevant academic content and serendipitously discover new content.\n\nOverview\nRecommender systems usually make use of either or both collaborative filtering and content-based filtering, as well as other systems such as knowledge-based",
+            "empowerment": 0.018604651162790697,
+            "answer_length": 430
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "What capability distinguishes an autonomous robot, and how does robotics as a field enable building such machines?",
+            "selected_titles": [
+              "Robotics",
+              "Autonomous robot",
+              "Autonomous robot",
+              "Autonomous robot",
+              "Alice mobile robot"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Robotics is the interdisciplinary study and practice of the design, construction, operation, and use of robots.\nWithin mechanical engineering, robotics is the design and construction of the physical structures of robots, while in computer science, robotics focuses on robotic automation algorithms. Other disciplines contributing to robotics include electrical, control, software, information, electronic, telecommunication, computer, mechatronic, and materials engineering.\nThe goal of most robotics is to design machines that can help and assist humans. Many robots are built to do jobs that are hazardous to people, such as finding survivors in unstable ruins, and exploring space, mines and shipwrecks. Others replace people in jobs that are boring, repetitive, or unpleasant, such as cleaning, monitoring, transporting, and assembling. Today, robotics is a rapidly growing field, as technological advances continue; researching, designing, and building new robots serve various practical purposes.\n\nRobotics aspects\nRobotics usually combines three aspects of design work to create robot systems:\n\nMechanical construction: a frame, form or shape designed to achieve a particular task. For example, a robot designed to travel across heavy dirt or mud might use caterpillar tracks. Origami inspired robots can sense and analyze in extreme environments. The mechanical aspect of the robot is mostly the creator's solution to completing the assigned task and dealing with the physics of the environment around it. Form follows function.\nElectrical components that power and control the machinery. For example, the robot with caterpillar tracks would need some kind of power to move the tracker treads. That power comes in the form of electricity, which will have to travel through a wire and originate from a battery, a basic electrical circuit. Even petrol-powered machines that get their power mainly from petrol still require an electric current to start the combustion process which is why most petrol-powered machines like cars, have batteries. The electrical aspect of robots is used for movement (through motors), sensing (where electrical signals are used to measure things like heat, sound, position, and energy status), and operation (robots need some level of electrical energy supplied to their motors and sensors in order to activate and perform basic operations)\nSoftware. A program is how a robot decides when or how to do something. In the caterpillar track example, a robot that needs to move across a muddy road may have the correct mechanical construction and receive the correct amount of power from its battery, but would not be able to go anywhere without a program telling it to move. Programs are the core essence of a robot, it could",
+            "empowerment": 0.014218009478672985,
+            "answer_length": 422
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "How do augmented reality systems depend on computer vision to align overlays with the real world?",
+            "selected_titles": [
+              "Augmented reality",
+              "Augmented reality",
+              "Augmented reality",
+              "Augmented reality",
+              "Computer vision"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "where they actually are in space. Augmented reality also has a lot of potential in the gathering and sharing of tacit knowledge. Immersive perceptual information is sometimes combined with supplemental information like scores over a live video feed of a sporting event. This combines the benefits of both augmented reality technology and heads up display technology (HUD).\nAugmented reality frameworks include ARKit and ARCore. Commercial augmented reality headsets include the Magic Leap 1 and HoloLens. A number of companies have promoted the concept of smartglasses that have augmented reality capability.\nAugmented reality can be defined as a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects. The overlaid sensory information can be constructive (i.e. additive to the natural environment), or destructive (i.e. masking of the natural environment). As such, it is one of the key technologies in the reality-virtuality continuum. Augmented reality refers to experiences that are artificial and that add to the already existing reality.\n\nComparison with mixed reality/virtual reality\nAugmented reality (AR) is largely synonymous with mixed reality (MR). There is also overlap in terminology with extended reality and computer-mediated reality. However, In the 2020s, the differences between AR and MR began to be emphasized.\n\nMixed reality (MR) is an advanced technology that extends beyond augmented reality (AR) by seamlessly integrating the physical and virtual worlds. In MR, users are not only able to view digital content within their real environment but can also interact with it as if it were a tangible part of the physical world. This is made possible through devices such as Meta Quest 3S and Apple Vison Pro, which utilize multiple cameras and sensors to enable real-time interaction between virtual and physical elements. Mixed reality that incorporates haptics has sometimes been referred to as visuo-haptic mixed reality.\nIn virtual reality (VR), the users' perception is completely computer-generated, whereas with augmented reality (AR), it is partially generated and partially from the real world. For example, in architecture, VR can be used to create a walk-through simulation of the inside of a new building; and AR can be used to show a building's structures and systems super-imposed on a real-life view. Another example is through the use of utility applications. Some AR applications, such as Augment, enable users to apply digital objects into real environments, allowing businesses to",
+            "empowerment": 0.02195121951219512,
+            "answer_length": 410
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What interaction challenge does human\u2013computer interaction study, and how do augmented reality interfaces illustrate it?",
+            "selected_titles": [
+              "Human\u2013computer interaction",
+              "Human\u2013computer interaction",
+              "Augmented reality",
+              "Augmented reality",
+              "Human\u2013computer interaction"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Human\u2013computer interaction (HCI) is the process through which people operate and engage with computer systems. Research in HCI covers the design and the use of computer technology, which focuses on the interfaces between people (users) and computers. HCI researchers observe how people interact with computers and design technologies that allow humans to interact with computers in new ways. These include visual, auditory, and tactile (haptic) feedback systems, which serve as channels for interaction in both traditional interfaces and mobile computing contexts.\nA device that allows interaction between human being and a computer is known as a \"human\u2013computer interface\".\nAs a field of research, human\u2013computer interaction is situated at the intersection of computer science, behavioral sciences, design, media studies, and several other fields. The term was popularized by Stuart K. Card, Allen Newell, and Thomas P. Moran in their 1983 book, The Psychology of Human\u2013Computer Interaction. The first known use was in 1975 by Carlisle. The term is intended to convey that, unlike other tools with specific and limited uses, computers have many uses which often involve an open-ended dialogue between the user and the computer. The notion of dialogue likens human\u2013computer interaction to human-to-human interaction: an analogy that is crucial to theoretical considerations in the field.\n\nIntroduction\nHumans interact with computers in many ways, and the interface between the two is crucial to facilitating this interaction. HCI is also sometimes termed human\u2013machine interaction (HMI), man-machine interaction (MMI) or computer-human interaction (CHI). Desktop applications, web browsers, handheld computers, and computer kiosks make use of the prevalent graphical user interfaces (GUI) of today. Voice user interfaces (VUIs) are used for speech recognition and synthesizing systems, and the emerging multi-modal and Graphical user interfaces (GUI) allow humans to engage with embodied character agents in a way that cannot be achieved with other interface paradigms.\nThe Association for Computing Machinery (ACM) defines human\u2013computer interaction as \"a discipline that is concerned with the design, evaluation, and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them\". A key aspect of HCI is user satisfaction, also referred to as End-User Computing Satisfaction. It goes on to say:\n\"Because human\u2013computer interaction studies a human and a machine in communication, it draws from supporting knowledge on both the machine and the human side. On the machine side, techniques in computer graphics,",
+            "empowerment": 0.01728395061728395,
+            "answer_length": 405
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "Which paradigm offers elastic pools of shared resources on demand, and how does edge computing adapt that model when latency matters?",
+            "selected_titles": [
+              "Edge computing",
+              "Edge computing",
+              "Mobile cloud computing",
+              "Computer performance",
+              "Computing"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Edge computing is a distributed computing model that brings computation and data storage closer to the sources of data. More broadly, it refers to any design that pushes computation physically closer to a user, so as to reduce the latency compared to when an application runs on a centralized data center.\nThe term began being used in the 1990s to describe content delivery networks\u2014these were used to deliver website and video content from servers located near users. In the early 2000s, these systems expanded their scope to hosting other applications, leading to early edge computing services. These services could do things like find dealers, manage shopping carts, gather real-time data, and place ads.\nThe Internet of Things (IoT), where devices are connected to the internet, is often linked with edge computing.\n\nDefinition\nEdge computing involves running computer programs that deliver quick responses close to where requests are made. Karim Arabi, during an IEEE DAC 2014 keynote and later at an MIT MTL Seminar in 2015, described edge computing as computing that occurs outside the cloud, at the network's edge, particularly for applications needing immediate data processing. \nEdge computing is often equated with fog computing, particularly in smaller setups. However, in larger deployments, such as smart cities, fog computing serves as a distinct layer between edge computing and cloud computing, with each layer having its own responsibilities.\n\"The State of the Edge\" report explains that edge computing focuses on servers located close to the end-users. Alex Reznik, Chair of the ETSI MEC ISG standards committee, defines 'edge' loosely as anything that's not a traditional data center.\nIn cloud gaming, edge nodes, known as \"gamelets\", are typically within one or two network hops from the client, ensuring quick response times for real-time games.\nEdge computing might use virtualization technology to simplify deploying and managing various applications on edge servers.\n\nConcept\nIn 2018, the world's data was expected to grow 61 percent to 175 zettabytes by 2025. According to research firm Gartner, around 10 percent of enterprise-generated data is created and processed outside a traditional centralized data center or cloud. By 2025, the firm predicts that this figure will reach 75 percent. The increase in IoT devices at the edge of the network is producing a massive amount of data \u2014 storing and using all that data in cloud data centers pushes network bandwidth requirements to the limit. Despite the improvements in network technology, data centers cannot guarantee acceptable transfer rates and response times, which often",
+            "empowerment": 0.004796163069544364,
+            "answer_length": 417
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "Why does the growth of the Internet of Things raise computer security stakes?",
+            "selected_titles": [
+              "Computer security",
+              "Computer security",
+              "Computer security",
+              "Cyberterrorism",
+              "Internet of things"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Computer security (also cybersecurity, digital security, or information technology (IT) security) is a subdiscipline within the field of information security. It focuses on protecting computer software, systems, and networks from threats that can lead to unauthorized information disclosure, theft or damage to hardware, software, or data, as well as from the disruption or misdirection of the services they provide.\nThe growing significance of computer insecurity reflects the increasing dependence on computer systems, the Internet, and evolving wireless network standards. This reliance has expanded with the proliferation of smart devices, including smartphones, televisions, and other components of the Internet of things (IoT).\nAs digital infrastructure becomes more embedded in everyday life, cybersecurity has emerged as a critical concern. The complexity of modern information systems\u2014and the societal functions they underpin\u2014has introduced new vulnerabilities. Systems that manage essential services, such as power grids, electoral processes, and finance, are particularly sensitive to security breaches.\n\nAlthough many aspects of computer security involve digital security, such as electronic passwords and encryption, physical security measures, such as metal locks are still used to prevent unauthorized tampering. IT security is not a perfect subset of information security, therefore does not  completely align with the security convergence schema.\n\nVulnerabilities and attacks\nA vulnerability refers to a flaw in the structure, execution, functioning, or internal oversight of a computer or system that compromises its security. Most of the vulnerabilities that have been discovered are documented in the Common Vulnerabilities and Exposures (CVE) database. An exploitable vulnerability is one for which at least one working attack or exploit exists. Actors maliciously seeking vulnerabilities are known as threats. Vulnerabilities can be researched, reverse-engineered, hunted, or exploited using automated tools or customized scripts.\nVarious people or parties are vulnerable to cyber attacks; however, different groups are likely to experience different types of attacks more than others.\nIn April 2023, the United Kingdom Department for Science, Innovation & Technology released a report on cyber attacks over the previous 12 months. They surveyed 2,263 UK businesses, 1,174 UK registered charities, and 554 education institutions. The research found that \"32% of businesses and 24% of charities overall recall any breaches or attacks from the last 12 months.\" These figures were much higher for \"medium businesses (59%), large businesses (69%), and high-income charities",
+            "empowerment": 0.010498687664041995,
+            "answer_length": 381
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "How are cyber-physical systems related to the Internet of Things, and what distinguishes CPS deployments?",
+            "selected_titles": [
+              "Cyber-physical system",
+              "Industrial big data",
+              "Internet of things",
+              "Internet of things",
+              "Cyber-physical system"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Cyber-physical systems (CPS) are mechanisms controlled and monitored by computer algorithms, tightly integrated with the internet and its users. In cyber-physical systems, physical and software components are deeply intertwined, able to operate on different spatial and temporal scales, exhibit multiple and distinct behavioral modalities, and interact with each other in ways that change with context. \nCPS involves transdisciplinary approaches, merging theory of cybernetics, mechatronics, design and process science. The process control is often referred to as embedded systems. In embedded systems, the emphasis tends to be more on the computational elements, and less on an intense link between the computational and physical elements. CPS is also similar to the Internet of Things (IoT), sharing the same basic architecture; nevertheless, CPS presents a higher combination and coordination between physical and computational elements.\nExamples of CPS include smart grid, autonomous automobile systems, medical monitoring, industrial control systems, robotics systems, recycling and automatic pilot avionics. Precursors of cyber-physical systems can be found in areas as diverse as aerospace, automotive, chemical processes, civil infrastructure, energy, healthcare, manufacturing, transportation, entertainment, and consumer appliances.\n\nOverview\nUnlike more traditional embedded systems, a full-fledged CPS is typically designed as a network of interacting elements with physical input and output instead of as standalone devices. The notion is closely tied to concepts of robotics and sensor networks with intelligence mechanisms proper of computational intelligence leading the pathway.  Ongoing advances in science and engineering improve the link between computational and physical elements by means of intelligent mechanisms, increasing the adaptability, autonomy, efficiency, functionality, reliability, safety, and usability of cyber-physical systems.\nThis will broaden the potential of cyber-physical systems in several directions, including: intervention (e.g., collision avoidance); precision (e.g., robotic surgery and nano-level manufacturing); operation in dangerous or inaccessible environments (e.g., search and rescue, firefighting, and deep-sea exploration); coordination (e.g., air traffic control, war fighting); efficiency (e.g., zero-net energy buildings); and augmentation of human capabilities (e.g. in healthcare monitoring and delivery).\n\nMobile cyber-physical systems\nMobile cyber-physical systems, in which the physical system under study has inherent mobility, are a prominent subcategory of cyber-physical systems. Examples of mobile physical systems include mobile robotics and electronics transported by humans or animals",
+            "empowerment": 0.005319148936170213,
+            "answer_length": 376
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.8,
+            "directness": 1.0,
+            "question": "How does high-performance computing make use of supercomputers, and how is supercomputer performance typically compared?",
+            "selected_titles": [
+              "Supercomputer",
+              "Supercomputer",
+              "High-performance computing",
+              "Computer",
+              "List of the top supercomputers in the United States"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A supercomputer is a type of computer with a high level of performance as compared to a general-purpose computer. Supercomputers play an important role in the field of computational science, and are used for a wide range of computationally intensive tasks in various fields including quantum mechanics, weather forecasting, climate research, oil and gas exploration, molecular modeling (computing the structures and properties of chemical compounds, biological macromolecules, polymers, and crystals), and physical simulations (such as simulations of aerodynamics, of the early moments of the universe, and of nuclear weapons). They have been essential in the field of cryptanalysis.\nThe performance of a supercomputer is commonly measured in floating-point operations per second (FLOPS) instead of million instructions per second (MIPS). Since 2022, exascale supercomputers have existed which can perform over 1018 FLOPS. For comparison, a desktop computer has performance in the range of hundreds of gigaFLOPS (1011) to tens of teraFLOPS (1013). Since November 2017, all of the world's fastest 500 supercomputers run on Linux-based operating systems. Additional research is being conducted in the United States, the European Union, Taiwan, Japan, and China to build faster, more powerful and technologically superior exascale supercomputers.\nSupercomputers were introduced in the 1960s, and for several decades the fastest was made by Seymour Cray at Control Data Corporation (CDC), Cray Research and subsequent companies bearing his name or monogram. The first such machines were highly tuned conventional designs that ran more quickly than their more general-purpose contemporaries. Through the decade, increasing amounts of parallelism were added, with one to four processors being typical. In the 1970s, vector processors operating on large arrays of data came to dominate. A notable example is the highly successful Cray-1 of 1976. Vector computers remained the dominant design into the 1990s. From then until today, massively parallel supercomputers with tens of thousands of off-the-shelf processors became the norm.\nThe U.S. has long been a leader in the supercomputer field, initially through Cray's nearly uninterrupted dominance, and later through a variety of technology companies. Japan made significant advancements in the field during the 1980s and 1990s, while China has become increasingly active in supercomputing in recent years. As of November 2024,",
+            "empowerment": 0.005434782608695652,
+            "answer_length": 368
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "In what way do parallel computing and distributed computing differ when coordinating tasks?",
+            "selected_titles": [
+              "Distributed computing",
+              "Parallel computing",
+              "Parallel computing",
+              "Distributed computing",
+              "Parallel computing"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Distributed computing is a field of computer science that studies distributed systems, defined as computer systems whose inter-communicating components are located on different networked computers. \nThe components of a distributed system communicate and coordinate their actions by passing messages to one another in order to achieve a common goal. Three challenges of distributed systems are: maintaining concurrency of components, overcoming the lack of a global clock, and managing the independent failure of components. When a component of one system fails, the entire system does not fail. Examples of distributed systems vary from SOA-based systems to microservices to massively multiplayer online games to peer-to-peer applications. Distributed systems cost more than monolithic architectures, primarily due to increased needs for additional hardware, servers, gateways, firewalls, new subnets, proxies, and so on. Distributed systems can also suffer from fallacies of distributed computing. Conversely, a well-designed distributed system is more scalable, more durable, more changeable, and more fine-tuned than a monolithic application deployed on a single machine. According to Marc Brooker: \"a system is scalable in the range where marginal cost of additional workload is nearly constant.\" Serverless technologies fit this definition but the total cost of ownership, and not just the infra cost must be considered.\nA computer program that runs within a distributed system is called a distributed program, and distributed programming is the process of writing such programs. There are many types of implementations for the message-passing mechanism, including pure HTTP, RPC-like connectors, and message queues.\nDistributed computing also refers to the use of distributed systems to solve computational problems. In distributed computing, a problem is divided into many tasks, each of which is solved by one or more computers, which communicate with each other via message passing.\n\nIntroduction\nThe word distributed in terms such as \"distributed system\", \"distributed programming\", and \"distributed algorithm\" originally referred to computer networks where individual computers were physically distributed within some geographical area. The terms are nowadays used in a much wider sense, even referring to autonomous processes that run on the same physical computer and interact with each other by message passing.\nThere is no single definition of a distributed system, but two common properties are generally cited:\n\nThere are several autonomous computational entities (computers or nodes), each of which has its own local memory.\nThe entities communicate with each other by message passing.\nA distributed system may have a common goal, such as solving a large computational problem; the user then perceives the",
+            "empowerment": 0.004807692307692308,
+            "answer_length": 416
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "How do computational biology and bioinformatics collaborate on biological data, and how does computational chemistry apply similar techniques elsewhere?",
+            "selected_titles": [
+              "Bioinformatics",
+              "Computational biology",
+              "Computational chemistry",
+              "Bioinformatics",
+              "Computational biology"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "Bioinformatics ( ) is an interdisciplinary field of science that develops methods and software tools for understanding biological data, especially when the data sets are large and complex. Bioinformatics uses biology, chemistry, physics, computer science, data science, computer programming, information engineering, mathematics and statistics to analyze and interpret biological data. This process  can sometimes be referred to as computational biology, however the distinction between the two terms is often disputed. To some, the term computational biology refers to building and using models of biological systems.\nComputational, statistical, and computer programming techniques have been used  for computer simulation analyses of biological queries. They include reused specific analysis \"pipelines\", particularly in the field of genomics, such as by the identification of genes and single nucleotide polymorphisms (SNPs). These pipelines are used to better understand the genetic basis of disease, unique adaptations, desirable properties (especially in agricultural species), or differences between populations. Bioinformatics also includes proteomics, which aims  to understand the organizational principles within nucleic acid and protein sequences.\nImage and signal processing allow extraction of useful results from large amounts of raw data. It aids in sequencing and annotating genomes and their observed mutations. Bioinformatics includes text mining of biological literature and the development of biological and gene ontologies to organize and query biological data. It also plays a role in the analysis of gene and protein expression and regulation. Bioinformatic tools aid in comparing, analyzing, interpreting genetic and genomic data and in the understanding of evolutionary aspects of molecular biology. At a more integrative level, it helps analyze and catalogue the biological pathways and networks that are an important part of systems biology. In structural biology, it aids in the simulation and modeling of DNA, RNA, proteins as well as biomolecular interactions.\n\nHistory\nThe first definition of the term bioinformatics was coined by Paulien Hogeweg and Ben Hesper in 1970, to refer to the study of information processes in biotic systems. This definition placed bioinformatics as a field parallel to biochemistry (the study of chemical processes in biological systems).\nBioinformatics and computational biology involved the analysis of biological data, particularly DNA, RNA, and protein sequences. The field of bioinformatics experienced explosive growth starting in the mid-1990s, driven largely by the Human Genome Project and by rapid advances in DNA sequencing technology.\nAnalyzing biological data to produce meaningful information involves writing and running software programs that use algorithms from graph theory",
+            "empowerment": 0.01256281407035176,
+            "answer_length": 398
+          },
+          {
+            "comprehensiveness": 1.0,
+            "diversity": 0.6,
+            "directness": 1.0,
+            "question": "What hardware role does a microprocessor play, and how do operating systems depend on it?",
+            "selected_titles": [
+              "Operating system",
+              "Microprocessor",
+              "Microprocessor",
+              "Microprocessor",
+              "Hardware acceleration"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "An operating system (OS) is system software that manages computer hardware and software resources, and provides common services for computer programs.\nTime-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time, mass storage, peripherals, and other resources.\nFor hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware, although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer \u2013 from cellular phones and video game consoles to web servers and supercomputers.\nAs of September 2024, Android is the most popular operating system with a 46% market share, followed by Microsoft Windows at 26%, iOS and iPadOS at 18%, macOS at 5%, and Linux at 1%. Android, iOS, and iPadOS are mobile operating systems, while Windows, macOS, and Linux are desktop operating systems. Linux distributions are dominant in the server and supercomputing sectors. Other specialized classes of operating systems (special-purpose operating systems), such as embedded and real-time systems, exist for many applications. Security-focused operating systems also exist. Some operating systems have low system requirements (e.g. light-weight Linux distribution). Others may have higher system requirements.\nSome operating systems require installation or may come pre-installed with purchased computers (OEM-installation), whereas others may run directly from media (i.e. live CD) or flash memory (i.e. a LiveUSB from a USB stick).\n\nDefinition and purpose\nAn operating system is difficult to define, but has been called \"the layer of software that manages a computer's resources for its users and their applications\". Operating systems include the software that is always running, called a kernel\u2014but can include other software as well. The two other types of programs that can run on a computer are system programs\u2014which are associated with the operating system, but may not be part of the kernel\u2014and applications\u2014all other software.\nThere are three main purposes that an operating system fulfills:\n\nOperating systems allocate resources between different applications, deciding when they will receive central processing unit (CPU) time or space in memory. On modern personal computers, users often want to run several applications at once. In order to ensure that one program cannot monopolize the computer's",
+            "empowerment": 0.009876543209876543,
+            "answer_length": 405
+          },
+          {
+            "comprehensiveness": 0.5,
+            "diversity": 0.4,
+            "directness": 1.0,
+            "question": "What distinguishes quantum computing from the classical high-performance systems used in scientific workloads?",
+            "selected_titles": [
+              "Quantum computing",
+              "Computing",
+              "Computing",
+              "Quantum computing",
+              "Quantum computing"
+            ],
+            "answer_source": "retrieved_chunk",
+            "answer": "A quantum computer is a (real or theoretical) computer that uses quantum mechanical phenomena in an essential way: it exploits superposed and entangled states, and the intrinsically non-deterministic outcomes of quantum measurements, as features of its computation. Quantum computers can be viewed as sampling from quantum systems that evolve in ways that may be described as operating on an enormous number of possibilities simultaneously, though still subject to strict computational constraints. By contrast, ordinary (\"classical\") computers operate according to deterministic rules. (A classical computer can, in principle, be replicated by a classical mechanical device, with only a simple multiple of time cost. On the other hand (it is believed), a quantum computer would require exponentially more time and energy to be simulated classically.) It is widely believed that a quantum computer could perform some calculations exponentially faster than any classical computer. For example, a large-scale quantum computer could break some widely used public-key cryptographic schemes and aid physicists in performing physical simulations. However, current hardware implementations of quantum computation are largely experimental and only suitable for specialized tasks.\nThe basic unit of information in quantum computing, the qubit (or \"quantum bit\"), serves the same function as the bit in ordinary or \"classical\" computing. However, unlike a classical bit, which can be in one of two states (a binary), a qubit can exist in a linear combination of two states known as a quantum superposition. The result of measuring a qubit is one of the two states given by a probabilistic rule. If a quantum computer manipulates the qubit in a particular way, wave interference effects amplify the probability of the desired measurement result. The design of quantum algorithms involves creating procedures that allow a quantum computer to perform this amplification.\nQuantum computers are not yet practical for real-world applications. Physically engineering high-quality qubits has proven to be challenging. If a physical qubit is not sufficiently isolated from its environment, it suffers from quantum decoherence, introducing noise into calculations. National governments have invested heavily in experimental research aimed at developing scalable qubits with longer coherence times and lower error rates. Example implementations include superconductors (which isolate an electrical current by eliminating electrical resistance) and ion traps (which confine a single atomic particle using electromagnetic fields). Researchers have claimed, and are widely believed to be correct, that certain quantum devices can outperform classical computers on narrowly defined tasks, a milestone",
+            "empowerment": 0.017369727047146403,
+            "answer_length": 403
+          }
+        ]
+      },
+      "improvements": {
+        "comprehensiveness": [
+          "Which data model defines a knowledge graph, and which neural network family is tailored to operate directly on that structure?",
+          "How do augmented reality systems depend on computer vision to align overlays with the real world?",
+          "How do computational biology and bioinformatics collaborate on biological data, and how does computational chemistry apply similar techniques elsewhere?"
+        ],
+        "diversity": [
+          "How do the Internet of Things and edge computing complement each other when a deployment needs low-latency intelligence?",
+          "Which data model defines a knowledge graph, and which neural network family is tailored to operate directly on that structure?",
+          "Which training approach produces large language models, and what transformer innovation enables them to scale?",
+          "How do augmented reality systems depend on computer vision to align overlays with the real world?",
+          "Which paradigm offers elastic pools of shared resources on demand, and how does edge computing adapt that model when latency matters?",
+          "Why does the growth of the Internet of Things raise computer security stakes?",
+          "How are cyber-physical systems related to the Internet of Things, and what distinguishes CPS deployments?",
+          "How does high-performance computing make use of supercomputers, and how is supercomputer performance typically compared?",
+          "How do computational biology and bioinformatics collaborate on biological data, and how does computational chemistry apply similar techniques elsewhere?"
+        ],
+        "directness": [],
+        "empowerment": [
+          "What interaction challenge does human\u2013computer interaction study, and how do augmented reality interfaces illustrate it?",
+          "Why does the growth of the Internet of Things raise computer security stakes?"
+        ]
+      }
+    }
+  }
+}
